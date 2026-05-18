@@ -32,22 +32,12 @@ class ComposerStaticInit050a16c7fb07758cf7d97e0229598552
         '8751700fbc137cc374c0c964e6f7a3d1' => __DIR__ . '/..' . '/magento/module-config/registration.php',
         '4bb8d22d7b667a82fd15cd54de5fb1c5' => __DIR__ . '/..' . '/magento/module-require-js/registration.php',
         '4a78493fd48e24e9ec5cd7b77605aa2f' => __DIR__ . '/..' . '/magento/module-developer/registration.php',
-        'de1a3b54687292d8e2d1a62f46195bf7' => __DIR__ . '/..' . '/magento/module-deploy/cli_commands.php',
-        '6ee1cd128090ab96a8b44cf40b66dcb4' => __DIR__ . '/..' . '/magento/module-deploy/registration.php',
-        '87bb82aba4e6954227316088ec049d42' => __DIR__ . '/..' . '/magento/module-translation/registration.php',
         '81a6edf4c0f44fc1194f4d0362aa4102' => __DIR__ . '/..' . '/magento/module-backend/registration.php',
         'f1296a4c3cc1525765fa1e180a2a4ca8' => __DIR__ . '/..' . '/magento/module-backend/cli_commands.php',
-        'f894a74ac14b8468d8e4ce96b23e46c2' => __DIR__ . '/..' . '/magento/module-directory/registration.php',
         '18a9d3b717442a10d28b3171b35bea25' => __DIR__ . '/..' . '/magento/module-authorization/registration.php',
-        'd13cf42afd7e8468aaae642ce0a2c3cf' => __DIR__ . '/..' . '/magento/module-security/registration.php',
         '07f4b29581a907da6d366307f545041b' => __DIR__ . '/..' . '/magento/module-user/registration.php',
-        '53814a716d73013b1489c928a2cb4164' => __DIR__ . '/..' . '/magento/module-shipping/registration.php',
-        'b6b63f684deb9dbde7a9fc9f251c982b' => __DIR__ . '/..' . '/magento/module-tax/registration.php',
-        '6c89c3a060d2d522c8a81f44a7918e32' => __DIR__ . '/..' . '/magento/module-sales-sequence/registration.php',
-        'e3c0afcb4c0d7f0a4d03bc25de2dfac5' => __DIR__ . '/..' . '/magento/module-encryption-key/registration.php',
-        'a402dea5ff0872fb10e6b9910d2dd108' => __DIR__ . '/..' . '/magento/module-sales/registration.php',
-        '571be93292212396d8ebf8febc7bed8f' => __DIR__ . '/..' . '/magento/module-wishlist/registration.php',
-        '489864ea263482896f9bb483ed58a3cc' => __DIR__ . '/..' . '/magento/module-customer/registration.php',
+        'de1a3b54687292d8e2d1a62f46195bf7' => __DIR__ . '/..' . '/magento/module-deploy/cli_commands.php',
+        '6ee1cd128090ab96a8b44cf40b66dcb4' => __DIR__ . '/..' . '/magento/module-deploy/registration.php',
         '556c7aed2035e389bcc1ad2f68ae4a63' => __DIR__ . '/..' . '/magento/module-csp/registration.php',
         '4fff475f7f487ba5858a82163df5d0b1' => __DIR__ . '/..' . '/magento/module-theme/registration.php',
         '47402ddfee46771bcf36e616cf38b137' => __DIR__ . '/..' . '/magento/module-variable/registration.php',
@@ -56,6 +46,7 @@ class ComposerStaticInit050a16c7fb07758cf7d97e0229598552
         'c15dd04b8a7893b89b5f554d9cb0778e' => __DIR__ . '/..' . '/magento/framework-message-queue/registration.php',
         'b3ba605c072a12bae487cb2a1e19816c' => __DIR__ . '/..' . '/magento/module-asynchronous-operations/registration.php',
         '2d0debaab8ec34dfba214036a43af24e' => __DIR__ . '/..' . '/magento/module-url-rewrite/registration.php',
+        'f894a74ac14b8468d8e4ce96b23e46c2' => __DIR__ . '/..' . '/magento/module-directory/registration.php',
         'decc78cc4436b1292c6c0d151b19445c' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/bootstrap.php',
         '71bec2022ce7910b2a55f98bbf437063' => __DIR__ . '/..' . '/magento/framework-amqp/registration.php',
         '7d65523658f618d8d26b8219ea46bbd7' => __DIR__ . '/..' . '/magento/module-indexer/registration.php',
@@ -66,11 +57,19 @@ class ComposerStaticInit050a16c7fb07758cf7d97e0229598552
         '63c884842baae6ca2990e671b4fc32dd' => __DIR__ . '/..' . '/magento/module-aws-s3/registration.php',
         '525ee31af56481824fb617fb584819fe' => __DIR__ . '/..' . '/magento/module-catalog/registration.php',
         'd297a3999f459b564a6bdc8eac3e49e4' => __DIR__ . '/..' . '/magento/module-eav/registration.php',
+        '7ca31a19ac3e7da1453ce1ab51a3dcf1' => __DIR__ . '/..' . '/magento/module-page-cache/registration.php',
+        'b6b63f684deb9dbde7a9fc9f251c982b' => __DIR__ . '/..' . '/magento/module-tax/registration.php',
+        '53814a716d73013b1489c928a2cb4164' => __DIR__ . '/..' . '/magento/module-shipping/registration.php',
+        '6c89c3a060d2d522c8a81f44a7918e32' => __DIR__ . '/..' . '/magento/module-sales-sequence/registration.php',
         'fdc62965dd362c599fddb5bfff3d1e54' => __DIR__ . '/..' . '/magento/module-quote/registration.php',
+        'e3c0afcb4c0d7f0a4d03bc25de2dfac5' => __DIR__ . '/..' . '/magento/module-encryption-key/registration.php',
+        'a402dea5ff0872fb10e6b9910d2dd108' => __DIR__ . '/..' . '/magento/module-sales/registration.php',
+        '571be93292212396d8ebf8febc7bed8f' => __DIR__ . '/..' . '/magento/module-wishlist/registration.php',
+        '489864ea263482896f9bb483ed58a3cc' => __DIR__ . '/..' . '/magento/module-customer/registration.php',
         '2a9470a0cf5a054bc4c675d927f6376b' => __DIR__ . '/..' . '/magento/module-catalog-inventory/registration.php',
         '108fd301b720a30c9ec42a785ee00656' => __DIR__ . '/..' . '/magento/module-gift-message/registration.php',
+        'd13cf42afd7e8468aaae642ce0a2c3cf' => __DIR__ . '/..' . '/magento/module-security/registration.php',
         '44e7790b83e1936666da9a3a94daac39' => __DIR__ . '/..' . '/magento/module-downloadable/registration.php',
-        '7ca31a19ac3e7da1453ce1ab51a3dcf1' => __DIR__ . '/..' . '/magento/module-page-cache/registration.php',
         'ff4a42fb48f753f6d1e6177223059e3d' => __DIR__ . '/..' . '/magento/module-msrp/registration.php',
         'e54a2a6d4f945c30feee43a0713bfb8b' => __DIR__ . '/..' . '/magento/module-checkout/registration.php',
         '4725125cbaeab31cd4e5c5c07061fa43' => __DIR__ . '/..' . '/magento/module-payment/registration.php',
@@ -388,6 +387,7 @@ class ComposerStaticInit050a16c7fb07758cf7d97e0229598552
         '4fcd06e55e896e3cfd195481e3b7507e' => __DIR__ . '/..' . '/magento/module-re-captcha-wishlist/registration.php',
         '0e991a783d700a320f90da58cc8a38fc' => __DIR__ . '/..' . '/magento/module-rss/registration.php',
         'b023fd11134400033a2200c4032efd82' => __DIR__ . '/..' . '/magento/module-securitytxt/registration.php',
+        '87bb82aba4e6954227316088ec049d42' => __DIR__ . '/..' . '/magento/module-translation/registration.php',
         '9b38cf48e83f5d8f60375221cd213eee' => __DIR__ . '/..' . '/phpstan/phpstan/bootstrap.php',
         '07d7f1a47144818725fd8d91a907ac57' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/create_uploaded_file.php',
         'da94ac5d3ca7d2dbab84ce561ce72bfd' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/marshal_headers_from_sapi.php',
@@ -519,31 +519,31 @@ class ComposerStaticInit050a16c7fb07758cf7d97e0229598552
     );
 
     public static $prefixLengthsPsr4 = array (
-        't' => 
+        't' =>
         array (
             'tubalmartin\\CssMin\\' => 19,
         ),
-        'p' => 
+        'p' =>
         array (
             'phpseclib3\\' => 11,
         ),
-        'l' => 
+        'l' =>
         array (
             'libphonenumber\\' => 15,
         ),
-        'Y' => 
+        'Y' =>
         array (
             'Yandex\\Allure\\Adapter\\' => 22,
         ),
-        'W' => 
+        'W' =>
         array (
             'Webimpress\\SafeWriter\\' => 22,
         ),
-        'V' => 
+        'V' =>
         array (
             'Vault\\' => 6,
         ),
-        'S' => 
+        'S' =>
         array (
             'Symfony\\Polyfill\\Php85\\' => 23,
             'Symfony\\Polyfill\\Php84\\' => 23,
@@ -589,7 +589,7 @@ class ComposerStaticInit050a16c7fb07758cf7d97e0229598552
             'Seld\\JsonLint\\' => 14,
             'Sabberworm\\CSS\\' => 15,
         ),
-        'R' => 
+        'R' =>
         array (
             'React\\Stream\\' => 13,
             'React\\Socket\\' => 13,
@@ -602,13 +602,13 @@ class ComposerStaticInit050a16c7fb07758cf7d97e0229598552
             'Ramsey\\Uuid\\' => 12,
             'Ramsey\\Collection\\' => 18,
         ),
-        'Q' => 
+        'Q' =>
         array (
             'Qameta\\Allure\\PHPUnit\\' => 22,
             'Qameta\\Allure\\Codeception\\' => 26,
             'Qameta\\Allure\\' => 14,
         ),
-        'P' => 
+        'P' =>
         array (
             'Psy\\' => 4,
             'Psr\\Log\\' => 8,
@@ -636,14 +636,14 @@ class ComposerStaticInit050a16c7fb07758cf7d97e0229598552
             'PHPCSStandards\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\' => 57,
             'PDepend\\' => 8,
         ),
-        'O' => 
+        'O' =>
         array (
             'OpenTelemetry\\Context\\' => 22,
             'OpenTelemetry\\API\\' => 18,
             'OpenSearch\\' => 11,
             'OTPHP\\' => 6,
         ),
-        'M' => 
+        'M' =>
         array (
             'Mustache\\' => 9,
             'Monolog\\' => 8,
@@ -1029,7 +1029,7 @@ class ComposerStaticInit050a16c7fb07758cf7d97e0229598552
             'MabeEnum\\' => 9,
             'MFTF\\' => 5,
         ),
-        'L' => 
+        'L' =>
         array (
             'League\\MimeTypeDetection\\' => 25,
             'League\\Flysystem\\Local\\' => 23,
@@ -1062,7 +1062,7 @@ class ComposerStaticInit050a16c7fb07758cf7d97e0229598552
             'Laminas\\Code\\' => 13,
             'Laminas\\Captcha\\' => 16,
         ),
-        'J' => 
+        'J' =>
         array (
             'JsonSchema\\' => 11,
             'Jose\\Experimental\\' => 18,
@@ -1070,13 +1070,13 @@ class ComposerStaticInit050a16c7fb07758cf7d97e0229598552
             'Jose\\Bundle\\JoseFramework\\' => 26,
             'JmesPath\\' => 9,
         ),
-        'H' => 
+        'H' =>
         array (
             'Http\\Promise\\' => 13,
             'Http\\Discovery\\' => 15,
             'Http\\Client\\' => 12,
         ),
-        'G' => 
+        'G' =>
         array (
             'GuzzleHttp\\Stream\\' => 18,
             'GuzzleHttp\\Ring\\' => 16,
@@ -1090,13 +1090,13 @@ class ComposerStaticInit050a16c7fb07758cf7d97e0229598552
             'Giggsey\\Locale\\' => 15,
             'GT\\Dom\\' => 7,
         ),
-        'F' => 
+        'F' =>
         array (
             'Firebase\\JWT\\' => 13,
             'Fidry\\CpuCoreCounter\\' => 21,
             'Facebook\\WebDriver\\' => 19,
         ),
-        'E' => 
+        'E' =>
         array (
             'Evenement\\' => 10,
             'Ergebnis\\AgentDetector\\' => 23,
@@ -1105,7 +1105,7 @@ class ComposerStaticInit050a16c7fb07758cf7d97e0229598552
             'Elastic\\Elasticsearch\\' => 22,
             'Egulias\\EmailValidator\\' => 23,
         ),
-        'D' => 
+        'D' =>
         array (
             'Duo\\DuoUniversal\\' => 17,
             'DuoAPI\\' => 7,
@@ -1114,7 +1114,7 @@ class ComposerStaticInit050a16c7fb07758cf7d97e0229598552
             'DeepCopy\\' => 9,
             'DASPRiD\\Enum\\' => 13,
         ),
-        'C' => 
+        'C' =>
         array (
             'CustomRule\\PHPUnit\\' => 19,
             'Composer\\XdebugHandler\\' => 23,
@@ -1129,7 +1129,7 @@ class ComposerStaticInit050a16c7fb07758cf7d97e0229598552
             'Codeception\\' => 12,
             'Clue\\React\\NDJson\\' => 18,
         ),
-        'B' => 
+        'B' =>
         array (
             'Brick\\VarExporter\\' => 18,
             'Brick\\PhoneNumber\\' => 18,
@@ -1139,7 +1139,7 @@ class ComposerStaticInit050a16c7fb07758cf7d97e0229598552
             'Base32\\' => 7,
             'BaconQrCode\\' => 12,
         ),
-        'A' => 
+        'A' =>
         array (
             'Aws\\' => 4,
             'AdobeStock\\Api\\' => 15,
@@ -1148,2317 +1148,2317 @@ class ComposerStaticInit050a16c7fb07758cf7d97e0229598552
     );
 
     public static $prefixDirsPsr4 = array (
-        'tubalmartin\\CssMin\\' => 
+        'tubalmartin\\CssMin\\' =>
         array (
             0 => __DIR__ . '/..' . '/tubalmartin/cssmin/src',
         ),
-        'phpseclib3\\' => 
+        'phpseclib3\\' =>
         array (
             0 => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib',
         ),
-        'libphonenumber\\' => 
+        'libphonenumber\\' =>
         array (
             0 => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src',
         ),
-        'Yandex\\Allure\\Adapter\\' => 
+        'Yandex\\Allure\\Adapter\\' =>
         array (
             0 => __DIR__ . '/..' . '/allure-framework/allure-php-commons/src/Legacy',
         ),
-        'Webimpress\\SafeWriter\\' => 
+        'Webimpress\\SafeWriter\\' =>
         array (
             0 => __DIR__ . '/..' . '/webimpress/safe-writer/src',
         ),
-        'Vault\\' => 
+        'Vault\\' =>
         array (
             0 => __DIR__ . '/..' . '/csharpru/vault-php/src',
         ),
-        'Symfony\\Polyfill\\Php85\\' => 
+        'Symfony\\Polyfill\\Php85\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php85',
         ),
-        'Symfony\\Polyfill\\Php84\\' => 
+        'Symfony\\Polyfill\\Php84\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php84',
         ),
-        'Symfony\\Polyfill\\Php82\\' => 
+        'Symfony\\Polyfill\\Php82\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php82',
         ),
-        'Symfony\\Polyfill\\Php81\\' => 
+        'Symfony\\Polyfill\\Php81\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php81',
         ),
-        'Symfony\\Polyfill\\Php80\\' => 
+        'Symfony\\Polyfill\\Php80\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
         ),
-        'Symfony\\Polyfill\\Php73\\' => 
+        'Symfony\\Polyfill\\Php73\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php73',
         ),
-        'Symfony\\Polyfill\\Mbstring\\' => 
+        'Symfony\\Polyfill\\Mbstring\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
         ),
-        'Symfony\\Polyfill\\Intl\\Normalizer\\' => 
+        'Symfony\\Polyfill\\Intl\\Normalizer\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer',
         ),
-        'Symfony\\Polyfill\\Intl\\Idn\\' => 
+        'Symfony\\Polyfill\\Intl\\Idn\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-intl-idn',
         ),
-        'Symfony\\Polyfill\\Intl\\Grapheme\\' => 
+        'Symfony\\Polyfill\\Intl\\Grapheme\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme',
         ),
-        'Symfony\\Polyfill\\Ctype\\' => 
+        'Symfony\\Polyfill\\Ctype\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
         ),
-        'Symfony\\Contracts\\Service\\' => 
+        'Symfony\\Contracts\\Service\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/service-contracts',
         ),
-        'Symfony\\Contracts\\HttpClient\\' => 
+        'Symfony\\Contracts\\HttpClient\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/http-client-contracts',
         ),
-        'Symfony\\Contracts\\EventDispatcher\\' => 
+        'Symfony\\Contracts\\EventDispatcher\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/event-dispatcher-contracts',
         ),
-        'Symfony\\Contracts\\Cache\\' => 
+        'Symfony\\Contracts\\Cache\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/cache-contracts',
         ),
-        'Symfony\\Component\\Yaml\\' => 
+        'Symfony\\Component\\Yaml\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/yaml',
         ),
-        'Symfony\\Component\\VarExporter\\' => 
+        'Symfony\\Component\\VarExporter\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/var-exporter',
         ),
-        'Symfony\\Component\\VarDumper\\' => 
+        'Symfony\\Component\\VarDumper\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/var-dumper',
         ),
-        'Symfony\\Component\\String\\' => 
+        'Symfony\\Component\\String\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/string',
         ),
-        'Symfony\\Component\\Stopwatch\\' => 
+        'Symfony\\Component\\Stopwatch\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/stopwatch',
         ),
-        'Symfony\\Component\\Process\\' => 
+        'Symfony\\Component\\Process\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/process',
         ),
-        'Symfony\\Component\\OptionsResolver\\' => 
+        'Symfony\\Component\\OptionsResolver\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/options-resolver',
         ),
-        'Symfony\\Component\\Mime\\' => 
+        'Symfony\\Component\\Mime\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/mime',
         ),
-        'Symfony\\Component\\Mailer\\' => 
+        'Symfony\\Component\\Mailer\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/mailer',
         ),
-        'Symfony\\Component\\Intl\\' => 
+        'Symfony\\Component\\Intl\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/intl',
         ),
-        'Symfony\\Component\\HttpKernel\\' => 
+        'Symfony\\Component\\HttpKernel\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/http-kernel',
         ),
-        'Symfony\\Component\\HttpFoundation\\' => 
+        'Symfony\\Component\\HttpFoundation\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/http-foundation',
         ),
-        'Symfony\\Component\\Finder\\' => 
+        'Symfony\\Component\\Finder\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/finder',
         ),
-        'Symfony\\Component\\Filesystem\\' => 
+        'Symfony\\Component\\Filesystem\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/filesystem',
         ),
-        'Symfony\\Component\\EventDispatcher\\' => 
+        'Symfony\\Component\\EventDispatcher\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/event-dispatcher',
         ),
-        'Symfony\\Component\\ErrorHandler\\' => 
+        'Symfony\\Component\\ErrorHandler\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/error-handler',
         ),
-        'Symfony\\Component\\Dotenv\\' => 
+        'Symfony\\Component\\Dotenv\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/dotenv',
         ),
-        'Symfony\\Component\\DependencyInjection\\' => 
+        'Symfony\\Component\\DependencyInjection\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/dependency-injection',
         ),
-        'Symfony\\Component\\CssSelector\\' => 
+        'Symfony\\Component\\CssSelector\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/css-selector',
         ),
-        'Symfony\\Component\\Console\\' => 
+        'Symfony\\Component\\Console\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
         ),
-        'Symfony\\Component\\Config\\' => 
+        'Symfony\\Component\\Config\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/config',
         ),
-        'Symfony\\Component\\Cache\\' => 
+        'Symfony\\Component\\Cache\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/cache',
         ),
-        'Stomp\\' => 
+        'Stomp\\' =>
         array (
             0 => __DIR__ . '/..' . '/stomp-php/stomp-php/src',
         ),
-        'SpomkyLabs\\Pki\\' => 
+        'SpomkyLabs\\Pki\\' =>
         array (
             0 => __DIR__ . '/..' . '/spomky-labs/pki-framework/src',
         ),
-        'Seld\\Signal\\' => 
+        'Seld\\Signal\\' =>
         array (
             0 => __DIR__ . '/..' . '/seld/signal-handler/src',
         ),
-        'Seld\\PharUtils\\' => 
+        'Seld\\PharUtils\\' =>
         array (
             0 => __DIR__ . '/..' . '/seld/phar-utils/src',
         ),
-        'Seld\\JsonLint\\' => 
+        'Seld\\JsonLint\\' =>
         array (
             0 => __DIR__ . '/..' . '/seld/jsonlint/src/Seld/JsonLint',
         ),
-        'Sabberworm\\CSS\\' => 
+        'Sabberworm\\CSS\\' =>
         array (
             0 => __DIR__ . '/..' . '/sabberworm/php-css-parser/src',
         ),
-        'React\\Stream\\' => 
+        'React\\Stream\\' =>
         array (
             0 => __DIR__ . '/..' . '/react/stream/src',
         ),
-        'React\\Socket\\' => 
+        'React\\Socket\\' =>
         array (
             0 => __DIR__ . '/..' . '/react/socket/src',
         ),
-        'React\\Promise\\' => 
+        'React\\Promise\\' =>
         array (
             0 => __DIR__ . '/..' . '/react/promise/src',
         ),
-        'React\\EventLoop\\' => 
+        'React\\EventLoop\\' =>
         array (
             0 => __DIR__ . '/..' . '/react/event-loop/src',
         ),
-        'React\\Dns\\' => 
+        'React\\Dns\\' =>
         array (
             0 => __DIR__ . '/..' . '/react/dns/src',
         ),
-        'React\\ChildProcess\\' => 
+        'React\\ChildProcess\\' =>
         array (
             0 => __DIR__ . '/..' . '/react/child-process/src',
         ),
-        'React\\Cache\\' => 
+        'React\\Cache\\' =>
         array (
             0 => __DIR__ . '/..' . '/react/cache/src',
         ),
-        'ReCaptcha\\' => 
+        'ReCaptcha\\' =>
         array (
             0 => __DIR__ . '/..' . '/phpfui/recaptcha/src/ReCaptcha',
         ),
-        'Ramsey\\Uuid\\' => 
+        'Ramsey\\Uuid\\' =>
         array (
             0 => __DIR__ . '/..' . '/ramsey/uuid/src',
         ),
-        'Ramsey\\Collection\\' => 
+        'Ramsey\\Collection\\' =>
         array (
             0 => __DIR__ . '/..' . '/ramsey/collection/src',
         ),
-        'Qameta\\Allure\\PHPUnit\\' => 
+        'Qameta\\Allure\\PHPUnit\\' =>
         array (
             0 => __DIR__ . '/..' . '/allure-framework/allure-phpunit/src',
         ),
-        'Qameta\\Allure\\Codeception\\' => 
+        'Qameta\\Allure\\Codeception\\' =>
         array (
             0 => __DIR__ . '/..' . '/allure-framework/allure-codeception/src',
         ),
-        'Qameta\\Allure\\' => 
+        'Qameta\\Allure\\' =>
         array (
             0 => __DIR__ . '/..' . '/allure-framework/allure-php-commons/src',
         ),
-        'Psy\\' => 
+        'Psy\\' =>
         array (
             0 => __DIR__ . '/..' . '/psy/psysh/src',
         ),
-        'Psr\\Log\\' => 
+        'Psr\\Log\\' =>
         array (
             0 => __DIR__ . '/..' . '/psr/log/src',
         ),
-        'Psr\\Http\\Message\\' => 
+        'Psr\\Http\\Message\\' =>
         array (
             0 => __DIR__ . '/..' . '/psr/http-factory/src',
             1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
-        'Psr\\Http\\Client\\' => 
+        'Psr\\Http\\Client\\' =>
         array (
             0 => __DIR__ . '/..' . '/psr/http-client/src',
         ),
-        'Psr\\EventDispatcher\\' => 
+        'Psr\\EventDispatcher\\' =>
         array (
             0 => __DIR__ . '/..' . '/psr/event-dispatcher/src',
         ),
-        'Psr\\Container\\' => 
+        'Psr\\Container\\' =>
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
         ),
-        'Psr\\Clock\\' => 
+        'Psr\\Clock\\' =>
         array (
             0 => __DIR__ . '/..' . '/psr/clock/src',
         ),
-        'Psr\\Cache\\' => 
+        'Psr\\Cache\\' =>
         array (
             0 => __DIR__ . '/..' . '/psr/cache/src',
         ),
-        'Predis\\' => 
+        'Predis\\' =>
         array (
             0 => __DIR__ . '/..' . '/predis/predis/src',
         ),
-        'PhpParser\\' => 
+        'PhpParser\\' =>
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
-        'PhpDb\\' => 
+        'PhpDb\\' =>
         array (
             0 => __DIR__ . '/..' . '/php-db/phpdb/src',
         ),
-        'PhpCsFixer\\' => 
+        'PhpCsFixer\\' =>
         array (
             0 => __DIR__ . '/..' . '/friendsofphp/php-cs-fixer/src',
         ),
-        'PhpAmqpLib\\' => 
+        'PhpAmqpLib\\' =>
         array (
             0 => __DIR__ . '/..' . '/php-amqplib/php-amqplib/PhpAmqpLib',
         ),
-        'Pelago\\Emogrifier\\' => 
+        'Pelago\\Emogrifier\\' =>
         array (
             0 => __DIR__ . '/..' . '/pelago/emogrifier/src',
         ),
-        'PayPal\\Braintree\\' => 
+        'PayPal\\Braintree\\' =>
         array (
             0 => __DIR__ . '/..' . '/paypal/module-braintree-core',
         ),
-        'PayPal\\BraintreeReward\\' => 
+        'PayPal\\BraintreeReward\\' =>
         array (
             0 => __DIR__ . '/..' . '/paypal/module-braintree-reward',
         ),
-        'PayPal\\BraintreeGraphQl\\' => 
+        'PayPal\\BraintreeGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/paypal/module-braintree-graph-ql',
         ),
-        'PayPal\\BraintreeGiftWrapping\\' => 
+        'PayPal\\BraintreeGiftWrapping\\' =>
         array (
             0 => __DIR__ . '/..' . '/paypal/module-braintree-gift-wrapping',
         ),
-        'PayPal\\BraintreeGiftCard\\' => 
+        'PayPal\\BraintreeGiftCard\\' =>
         array (
             0 => __DIR__ . '/..' . '/paypal/module-braintree-gift-card',
         ),
-        'PayPal\\BraintreeGiftCardAccount\\' => 
+        'PayPal\\BraintreeGiftCardAccount\\' =>
         array (
             0 => __DIR__ . '/..' . '/paypal/module-braintree-gift-card-account',
         ),
-        'PayPal\\BraintreeCustomerBalance\\' => 
+        'PayPal\\BraintreeCustomerBalance\\' =>
         array (
             0 => __DIR__ . '/..' . '/paypal/module-braintree-customer-balance',
         ),
-        'ParagonIE\\ConstantTime\\' => 
+        'ParagonIE\\ConstantTime\\' =>
         array (
             0 => __DIR__ . '/..' . '/paragonie/constant_time_encoding/src',
         ),
-        'PHPMD\\' => 
+        'PHPMD\\' =>
         array (
             0 => __DIR__ . '/..' . '/phpmd/phpmd/src',
         ),
-        'PHPCSStandards\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\' => 
+        'PHPCSStandards\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\' =>
         array (
             0 => __DIR__ . '/..' . '/dealerdirect/phpcodesniffer-composer-installer/src',
         ),
-        'PDepend\\' => 
+        'PDepend\\' =>
         array (
             0 => __DIR__ . '/..' . '/pdepend/pdepend/src',
         ),
-        'OpenTelemetry\\Context\\' => 
+        'OpenTelemetry\\Context\\' =>
         array (
             0 => __DIR__ . '/..' . '/open-telemetry/context',
         ),
-        'OpenTelemetry\\API\\' => 
+        'OpenTelemetry\\API\\' =>
         array (
             0 => __DIR__ . '/..' . '/open-telemetry/api',
         ),
-        'OpenSearch\\' => 
+        'OpenSearch\\' =>
         array (
             0 => __DIR__ . '/..' . '/opensearch-project/opensearch-php/src/OpenSearch',
         ),
-        'OTPHP\\' => 
+        'OTPHP\\' =>
         array (
             0 => __DIR__ . '/..' . '/spomky-labs/otphp/src',
         ),
-        'Mustache\\' => 
+        'Mustache\\' =>
         array (
             0 => __DIR__ . '/..' . '/mustache/mustache/src',
         ),
-        'Monolog\\' => 
+        'Monolog\\' =>
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
-        'Magento\\Wishlist\\' => 
+        'Magento\\Wishlist\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-wishlist',
         ),
-        'Magento\\WishlistGraphQl\\' => 
+        'Magento\\WishlistGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-wishlist-graph-ql',
         ),
-        'Magento\\WishlistAnalytics\\' => 
+        'Magento\\WishlistAnalytics\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-wishlist-analytics',
         ),
-        'Magento\\Widget\\' => 
+        'Magento\\Widget\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-widget',
         ),
-        'Magento\\Weee\\' => 
+        'Magento\\Weee\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-weee',
         ),
-        'Magento\\WeeeGraphQl\\' => 
+        'Magento\\WeeeGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-weee-graph-ql',
         ),
-        'Magento\\Webapi\\' => 
+        'Magento\\Webapi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-webapi',
         ),
-        'Magento\\WebapiSecurity\\' => 
+        'Magento\\WebapiSecurity\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-webapi-security',
         ),
-        'Magento\\WebapiAsync\\' => 
+        'Magento\\WebapiAsync\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-webapi-async',
         ),
-        'Magento\\Version\\' => 
+        'Magento\\Version\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-version',
         ),
-        'Magento\\Vault\\' => 
+        'Magento\\Vault\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-vault',
         ),
-        'Magento\\VaultGraphQl\\' => 
+        'Magento\\VaultGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-vault-graph-ql',
         ),
-        'Magento\\Variable\\' => 
+        'Magento\\Variable\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-variable',
         ),
-        'Magento\\Usps\\' => 
+        'Magento\\Usps\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-usps',
         ),
-        'Magento\\User\\' => 
+        'Magento\\User\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-user',
         ),
-        'Magento\\UrlRewrite\\' => 
+        'Magento\\UrlRewrite\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-url-rewrite',
         ),
-        'Magento\\UrlRewriteGraphQl\\' => 
+        'Magento\\UrlRewriteGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-url-rewrite-graph-ql',
         ),
-        'Magento\\Ups\\' => 
+        'Magento\\Ups\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-ups',
         ),
-        'Magento\\Ui\\' => 
+        'Magento\\Ui\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-ui',
         ),
-        'Magento\\TwoFactorAuth\\' => 
+        'Magento\\TwoFactorAuth\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-two-factor-auth',
         ),
-        'Magento\\Translation\\' => 
+        'Magento\\Translation\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-translation',
         ),
-        'Magento\\Tools\\Sanity\\' => 
+        'Magento\\Tools\\Sanity\\' =>
         array (
             0 => __DIR__ . '/../..' . '/dev/build/publication/sanity/Magento/Tools/Sanity',
         ),
-        'Magento\\Tools\\' => 
+        'Magento\\Tools\\' =>
         array (
             0 => __DIR__ . '/../..' . '/dev/tools/Magento/Tools',
         ),
-        'Magento\\Theme\\' => 
+        'Magento\\Theme\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-theme',
         ),
-        'Magento\\ThemeGraphQl\\' => 
+        'Magento\\ThemeGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-theme-graph-ql',
         ),
-        'Magento\\TestFramework\\Utility\\' => 
+        'Magento\\TestFramework\\Utility\\' =>
         array (
             0 => __DIR__ . '/../..' . '/dev/tests/static/framework/Magento/TestFramework/Utility',
         ),
-        'Magento\\TestFramework\\Inspection\\' => 
+        'Magento\\TestFramework\\Inspection\\' =>
         array (
             0 => __DIR__ . '/../..' . '/dev/tests/static/framework/Magento/TestFramework/Inspection',
         ),
-        'Magento\\Tax\\' => 
+        'Magento\\Tax\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-tax',
         ),
-        'Magento\\TaxImportExport\\' => 
+        'Magento\\TaxImportExport\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-tax-import-export',
         ),
-        'Magento\\TaxGraphQl\\' => 
+        'Magento\\TaxGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-tax-graph-ql',
         ),
-        'Magento\\Swatches\\' => 
+        'Magento\\Swatches\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-swatches',
         ),
-        'Magento\\SwatchesLayeredNavigation\\' => 
+        'Magento\\SwatchesLayeredNavigation\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-swatches-layered-navigation',
         ),
-        'Magento\\SwatchesGraphQl\\' => 
+        'Magento\\SwatchesGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-swatches-graph-ql',
         ),
-        'Magento\\Swagger\\' => 
+        'Magento\\Swagger\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-swagger',
         ),
-        'Magento\\SwaggerWebapi\\' => 
+        'Magento\\SwaggerWebapi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-swagger-webapi',
         ),
-        'Magento\\SwaggerWebapiAsync\\' => 
+        'Magento\\SwaggerWebapiAsync\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-swagger-webapi-async',
         ),
-        'Magento\\Store\\' => 
+        'Magento\\Store\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-store',
         ),
-        'Magento\\StoreGraphQl\\' => 
+        'Magento\\StoreGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-store-graph-ql',
         ),
-        'Magento\\StoreDataExporter\\' => 
+        'Magento\\StoreDataExporter\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-store-data-exporter',
         ),
-        'Magento\\Stomp\\' => 
+        'Magento\\Stomp\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-stomp',
         ),
-        'Magento\\Sniffs\\' => 
+        'Magento\\Sniffs\\' =>
         array (
             0 => __DIR__ . '/../..' . '/dev/tests/static/framework/Magento/Sniffs',
         ),
-        'Magento\\Sitemap\\' => 
+        'Magento\\Sitemap\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-sitemap',
         ),
-        'Magento\\Shipping\\' => 
+        'Magento\\Shipping\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-shipping',
         ),
-        'Magento\\Setup\\' => 
+        'Magento\\Setup\\' =>
         array (
             0 => __DIR__ . '/../..' . '/setup/src/Magento/Setup',
         ),
-        'Magento\\ServicesId\\' => 
+        'Magento\\ServicesId\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-services-id',
         ),
-        'Magento\\ServicesIdLayout\\' => 
+        'Magento\\ServicesIdLayout\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-services-id-layout',
         ),
-        'Magento\\ServicesIdGraphQlServer\\' => 
+        'Magento\\ServicesIdGraphQlServer\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-services-id-graph-ql-server',
         ),
-        'Magento\\ServicesConnector\\' => 
+        'Magento\\ServicesConnector\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/services-connector',
         ),
-        'Magento\\ServiceProxy\\' => 
+        'Magento\\ServiceProxy\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-service-proxy',
         ),
-        'Magento\\SendFriend\\' => 
+        'Magento\\SendFriend\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-send-friend',
         ),
-        'Magento\\SendFriendGraphQl\\' => 
+        'Magento\\SendFriendGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-send-friend-graph-ql',
         ),
-        'Magento\\Securitytxt\\' => 
+        'Magento\\Securitytxt\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-securitytxt',
         ),
-        'Magento\\Security\\' => 
+        'Magento\\Security\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-security',
         ),
-        'Magento\\Search\\' => 
+        'Magento\\Search\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-search',
         ),
-        'Magento\\SampleData\\' => 
+        'Magento\\SampleData\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-sample-data',
         ),
-        'Magento\\Sales\\' => 
+        'Magento\\Sales\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-sales',
         ),
-        'Magento\\SalesSequence\\' => 
+        'Magento\\SalesSequence\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-sales-sequence',
         ),
-        'Magento\\SalesRule\\' => 
+        'Magento\\SalesRule\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-sales-rule',
         ),
-        'Magento\\SalesRuleGraphQl\\' => 
+        'Magento\\SalesRuleGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-sales-rule-graph-ql',
         ),
-        'Magento\\SalesInventory\\' => 
+        'Magento\\SalesInventory\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-sales-inventory',
         ),
-        'Magento\\SalesGraphQl\\' => 
+        'Magento\\SalesGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-sales-graph-ql',
         ),
-        'Magento\\SalesDataExporter\\' => 
+        'Magento\\SalesDataExporter\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-sales-data-exporter',
         ),
-        'Magento\\SalesAnalytics\\' => 
+        'Magento\\SalesAnalytics\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-sales-analytics',
         ),
-        'Magento\\SaaSCommon\\' => 
+        'Magento\\SaaSCommon\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-saas-common',
         ),
-        'Magento\\Rule\\' => 
+        'Magento\\Rule\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-rule',
         ),
-        'Magento\\Rss\\' => 
+        'Magento\\Rss\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-rss',
         ),
-        'Magento\\Robots\\' => 
+        'Magento\\Robots\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-robots',
         ),
-        'Magento\\Review\\' => 
+        'Magento\\Review\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-review',
         ),
-        'Magento\\ReviewGraphQl\\' => 
+        'Magento\\ReviewGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-review-graph-ql',
         ),
-        'Magento\\ReviewAnalytics\\' => 
+        'Magento\\ReviewAnalytics\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-review-analytics',
         ),
-        'Magento\\RequireJs\\' => 
+        'Magento\\RequireJs\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-require-js',
         ),
-        'Magento\\Reports\\' => 
+        'Magento\\Reports\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-reports',
         ),
-        'Magento\\RemoteStorage\\' => 
+        'Magento\\RemoteStorage\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-remote-storage',
         ),
-        'Magento\\ReleaseNotification\\' => 
+        'Magento\\ReleaseNotification\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-release-notification',
         ),
-        'Magento\\RelatedProductGraphQl\\' => 
+        'Magento\\RelatedProductGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-related-product-graph-ql',
         ),
-        'Magento\\ReCaptchaWishlist\\' => 
+        'Magento\\ReCaptchaWishlist\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-wishlist',
         ),
-        'Magento\\ReCaptchaWebapiUi\\' => 
+        'Magento\\ReCaptchaWebapiUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-webapi-ui',
         ),
-        'Magento\\ReCaptchaWebapiRest\\' => 
+        'Magento\\ReCaptchaWebapiRest\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-webapi-rest',
         ),
-        'Magento\\ReCaptchaWebapiGraphQl\\' => 
+        'Magento\\ReCaptchaWebapiGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-webapi-graph-ql',
         ),
-        'Magento\\ReCaptchaWebapiApi\\' => 
+        'Magento\\ReCaptchaWebapiApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-webapi-api',
         ),
-        'Magento\\ReCaptchaVersion3Invisible\\' => 
+        'Magento\\ReCaptchaVersion3Invisible\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-version-3-invisible',
         ),
-        'Magento\\ReCaptchaVersion2Invisible\\' => 
+        'Magento\\ReCaptchaVersion2Invisible\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-version-2-invisible',
         ),
-        'Magento\\ReCaptchaVersion2Checkbox\\' => 
+        'Magento\\ReCaptchaVersion2Checkbox\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-version-2-checkbox',
         ),
-        'Magento\\ReCaptchaValidation\\' => 
+        'Magento\\ReCaptchaValidation\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-validation',
         ),
-        'Magento\\ReCaptchaValidationApi\\' => 
+        'Magento\\ReCaptchaValidationApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-validation-api',
         ),
-        'Magento\\ReCaptchaUser\\' => 
+        'Magento\\ReCaptchaUser\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-user',
         ),
-        'Magento\\ReCaptchaUi\\' => 
+        'Magento\\ReCaptchaUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-ui',
         ),
-        'Magento\\ReCaptchaStorePickup\\' => 
+        'Magento\\ReCaptchaStorePickup\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-store-pickup',
         ),
-        'Magento\\ReCaptchaSendFriend\\' => 
+        'Magento\\ReCaptchaSendFriend\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-send-friend',
         ),
-        'Magento\\ReCaptchaReview\\' => 
+        'Magento\\ReCaptchaReview\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-review',
         ),
-        'Magento\\ReCaptchaResendConfirmationEmail\\' => 
+        'Magento\\ReCaptchaResendConfirmationEmail\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-resend-confirmation-email',
         ),
-        'Magento\\ReCaptchaPaypal\\' => 
+        'Magento\\ReCaptchaPaypal\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-paypal',
         ),
-        'Magento\\ReCaptchaNewsletter\\' => 
+        'Magento\\ReCaptchaNewsletter\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-newsletter',
         ),
-        'Magento\\ReCaptchaMigration\\' => 
+        'Magento\\ReCaptchaMigration\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-migration',
         ),
-        'Magento\\ReCaptchaFrontendUi\\' => 
+        'Magento\\ReCaptchaFrontendUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-frontend-ui',
         ),
-        'Magento\\ReCaptchaCustomer\\' => 
+        'Magento\\ReCaptchaCustomer\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-customer',
         ),
-        'Magento\\ReCaptchaContact\\' => 
+        'Magento\\ReCaptchaContact\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-contact',
         ),
-        'Magento\\ReCaptchaCheckout\\' => 
+        'Magento\\ReCaptchaCheckout\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-checkout',
         ),
-        'Magento\\ReCaptchaCheckoutSalesRule\\' => 
+        'Magento\\ReCaptchaCheckoutSalesRule\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-checkout-sales-rule',
         ),
-        'Magento\\ReCaptchaAdminUi\\' => 
+        'Magento\\ReCaptchaAdminUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-admin-ui',
         ),
-        'Magento\\Quote\\' => 
+        'Magento\\Quote\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-quote',
         ),
-        'Magento\\QuoteGraphQl\\' => 
+        'Magento\\QuoteGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-quote-graph-ql',
         ),
-        'Magento\\QuoteDownloadableLinks\\' => 
+        'Magento\\QuoteDownloadableLinks\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-quote-downloadable-links',
         ),
-        'Magento\\QuoteConfigurableOptions\\' => 
+        'Magento\\QuoteConfigurableOptions\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-quote-configurable-options',
         ),
-        'Magento\\QuoteCommerceCeGraphQl\\' => 
+        'Magento\\QuoteCommerceCeGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-quote-commerce-ce-graph-ql',
         ),
-        'Magento\\QuoteBundleOptions\\' => 
+        'Magento\\QuoteBundleOptions\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-quote-bundle-options',
         ),
-        'Magento\\QuoteAnalytics\\' => 
+        'Magento\\QuoteAnalytics\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-quote-analytics',
         ),
-        'Magento\\QueryXml\\' => 
+        'Magento\\QueryXml\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-query-xml',
         ),
-        'Magento\\ProductVideo\\' => 
+        'Magento\\ProductVideo\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-product-video',
         ),
-        'Magento\\ProductAlert\\' => 
+        'Magento\\ProductAlert\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-product-alert',
         ),
-        'Magento\\PhpStan\\' => 
+        'Magento\\PhpStan\\' =>
         array (
             0 => __DIR__ . '/../..' . '/dev/tests/static/framework/Magento/PhpStan',
         ),
-        'Magento\\Persistent\\' => 
+        'Magento\\Persistent\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-persistent',
         ),
-        'Magento\\Paypal\\' => 
+        'Magento\\Paypal\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-paypal',
         ),
-        'Magento\\PaypalGraphQl\\' => 
+        'Magento\\PaypalGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-paypal-graph-ql',
         ),
-        'Magento\\PaypalCaptcha\\' => 
+        'Magento\\PaypalCaptcha\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-paypal-captcha',
         ),
-        'Magento\\Payment\\' => 
+        'Magento\\Payment\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-payment',
         ),
-        'Magento\\PaymentServicesSaaSExport\\' => 
+        'Magento\\PaymentServicesSaaSExport\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-payment-services-saas-export',
         ),
-        'Magento\\PaymentServicesPaypal\\' => 
+        'Magento\\PaymentServicesPaypal\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-payment-services-paypal',
         ),
-        'Magento\\PaymentServicesPaypalGraphQl\\' => 
+        'Magento\\PaymentServicesPaypalGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-payment-services-paypal-graph-ql',
         ),
-        'Magento\\PaymentServicesDashboard\\' => 
+        'Magento\\PaymentServicesDashboard\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-payment-services-dashboard',
         ),
-        'Magento\\PaymentServicesBase\\' => 
+        'Magento\\PaymentServicesBase\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-payment-services-base',
         ),
-        'Magento\\PaymentGraphQl\\' => 
+        'Magento\\PaymentGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-payment-graph-ql',
         ),
-        'Magento\\PageCache\\' => 
+        'Magento\\PageCache\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-page-cache',
         ),
-        'Magento\\PageBuilder\\' => 
+        'Magento\\PageBuilder\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-page-builder',
         ),
-        'Magento\\PageBuilderImageAttribute\\' => 
+        'Magento\\PageBuilderImageAttribute\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-page-builder-image-attribute',
         ),
-        'Magento\\PageBuilderAnalytics\\' => 
+        'Magento\\PageBuilderAnalytics\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-page-builder-analytics',
         ),
-        'Magento\\PageBuilderAdminAnalytics\\' => 
+        'Magento\\PageBuilderAdminAnalytics\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-page-builder-admin-analytics',
         ),
-        'Magento\\OrderCancellation\\' => 
+        'Magento\\OrderCancellation\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-order-cancellation',
         ),
-        'Magento\\OrderCancellationUi\\' => 
+        'Magento\\OrderCancellationUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-order-cancellation-ui',
         ),
-        'Magento\\OrderCancellationGraphQl\\' => 
+        'Magento\\OrderCancellationGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-order-cancellation-graph-ql',
         ),
-        'Magento\\OpenSearch\\' => 
+        'Magento\\OpenSearch\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-open-search',
         ),
-        'Magento\\OfflineShipping\\' => 
+        'Magento\\OfflineShipping\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-offline-shipping',
         ),
-        'Magento\\OfflinePayments\\' => 
+        'Magento\\OfflinePayments\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-offline-payments',
         ),
-        'Magento\\Newsletter\\' => 
+        'Magento\\Newsletter\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-newsletter',
         ),
-        'Magento\\NewsletterGraphQl\\' => 
+        'Magento\\NewsletterGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-newsletter-graph-ql',
         ),
-        'Magento\\NewRelicReporting\\' => 
+        'Magento\\NewRelicReporting\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-new-relic-reporting',
         ),
-        'Magento\\MysqlMq\\' => 
+        'Magento\\MysqlMq\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-mysql-mq',
         ),
-        'Magento\\Multishipping\\' => 
+        'Magento\\Multishipping\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-multishipping',
         ),
-        'Magento\\Msrp\\' => 
+        'Magento\\Msrp\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-msrp',
         ),
-        'Magento\\MsrpGroupedProduct\\' => 
+        'Magento\\MsrpGroupedProduct\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-msrp-grouped-product',
         ),
-        'Magento\\MsrpConfigurableProduct\\' => 
+        'Magento\\MsrpConfigurableProduct\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-msrp-configurable-product',
         ),
-        'Magento\\MessageQueue\\' => 
+        'Magento\\MessageQueue\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-message-queue',
         ),
-        'Magento\\MediaStorage\\' => 
+        'Magento\\MediaStorage\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-media-storage',
         ),
-        'Magento\\MediaGallery\\' => 
+        'Magento\\MediaGallery\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-media-gallery',
         ),
-        'Magento\\MediaGalleryUi\\' => 
+        'Magento\\MediaGalleryUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-media-gallery-ui',
         ),
-        'Magento\\MediaGalleryUiApi\\' => 
+        'Magento\\MediaGalleryUiApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-media-gallery-ui-api',
         ),
-        'Magento\\MediaGallerySynchronization\\' => 
+        'Magento\\MediaGallerySynchronization\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-media-gallery-synchronization',
         ),
-        'Magento\\MediaGallerySynchronizationMetadata\\' => 
+        'Magento\\MediaGallerySynchronizationMetadata\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-media-gallery-synchronization-metadata',
         ),
-        'Magento\\MediaGallerySynchronizationApi\\' => 
+        'Magento\\MediaGallerySynchronizationApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-media-gallery-synchronization-api',
         ),
-        'Magento\\MediaGalleryRenditions\\' => 
+        'Magento\\MediaGalleryRenditions\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-media-gallery-renditions',
         ),
-        'Magento\\MediaGalleryRenditionsApi\\' => 
+        'Magento\\MediaGalleryRenditionsApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-media-gallery-renditions-api',
         ),
-        'Magento\\MediaGalleryMetadata\\' => 
+        'Magento\\MediaGalleryMetadata\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-media-gallery-metadata',
         ),
-        'Magento\\MediaGalleryMetadataApi\\' => 
+        'Magento\\MediaGalleryMetadataApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-media-gallery-metadata-api',
         ),
-        'Magento\\MediaGalleryIntegration\\' => 
+        'Magento\\MediaGalleryIntegration\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-media-gallery-integration',
         ),
-        'Magento\\MediaGalleryCmsUi\\' => 
+        'Magento\\MediaGalleryCmsUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-media-gallery-cms-ui',
         ),
-        'Magento\\MediaGalleryCatalog\\' => 
+        'Magento\\MediaGalleryCatalog\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-media-gallery-catalog',
         ),
-        'Magento\\MediaGalleryCatalogUi\\' => 
+        'Magento\\MediaGalleryCatalogUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-media-gallery-catalog-ui',
         ),
-        'Magento\\MediaGalleryCatalogIntegration\\' => 
+        'Magento\\MediaGalleryCatalogIntegration\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-media-gallery-catalog-integration',
         ),
-        'Magento\\MediaGalleryApi\\' => 
+        'Magento\\MediaGalleryApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-media-gallery-api',
         ),
-        'Magento\\MediaContent\\' => 
+        'Magento\\MediaContent\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-media-content',
         ),
-        'Magento\\MediaContentSynchronization\\' => 
+        'Magento\\MediaContentSynchronization\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-media-content-synchronization',
         ),
-        'Magento\\MediaContentSynchronizationCms\\' => 
+        'Magento\\MediaContentSynchronizationCms\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-media-content-synchronization-cms',
         ),
-        'Magento\\MediaContentSynchronizationCatalog\\' => 
+        'Magento\\MediaContentSynchronizationCatalog\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-media-content-synchronization-catalog',
         ),
-        'Magento\\MediaContentSynchronizationApi\\' => 
+        'Magento\\MediaContentSynchronizationApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-media-content-synchronization-api',
         ),
-        'Magento\\MediaContentCms\\' => 
+        'Magento\\MediaContentCms\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-media-content-cms',
         ),
-        'Magento\\MediaContentCatalog\\' => 
+        'Magento\\MediaContentCatalog\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-media-content-catalog',
         ),
-        'Magento\\MediaContentApi\\' => 
+        'Magento\\MediaContentApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-media-content-api',
         ),
-        'Magento\\Marketplace\\' => 
+        'Magento\\Marketplace\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-marketplace',
         ),
-        'Magento\\LoginAsCustomer\\' => 
+        'Magento\\LoginAsCustomer\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-login-as-customer',
         ),
-        'Magento\\LoginAsCustomerSales\\' => 
+        'Magento\\LoginAsCustomerSales\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-login-as-customer-sales',
         ),
-        'Magento\\LoginAsCustomerQuote\\' => 
+        'Magento\\LoginAsCustomerQuote\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-login-as-customer-quote',
         ),
-        'Magento\\LoginAsCustomerPageCache\\' => 
+        'Magento\\LoginAsCustomerPageCache\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-login-as-customer-page-cache',
         ),
-        'Magento\\LoginAsCustomerLog\\' => 
+        'Magento\\LoginAsCustomerLog\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-login-as-customer-log',
         ),
-        'Magento\\LoginAsCustomerGraphQl\\' => 
+        'Magento\\LoginAsCustomerGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-login-as-customer-graph-ql',
         ),
-        'Magento\\LoginAsCustomerFrontendUi\\' => 
+        'Magento\\LoginAsCustomerFrontendUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-login-as-customer-frontend-ui',
         ),
-        'Magento\\LoginAsCustomerAssistance\\' => 
+        'Magento\\LoginAsCustomerAssistance\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-login-as-customer-assistance',
         ),
-        'Magento\\LoginAsCustomerApi\\' => 
+        'Magento\\LoginAsCustomerApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-login-as-customer-api',
         ),
-        'Magento\\LoginAsCustomerAdminUi\\' => 
+        'Magento\\LoginAsCustomerAdminUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-login-as-customer-admin-ui',
         ),
-        'Magento\\LayeredNavigation\\' => 
+        'Magento\\LayeredNavigation\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-layered-navigation',
         ),
-        'Magento\\JwtUserToken\\' => 
+        'Magento\\JwtUserToken\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-jwt-user-token',
         ),
-        'Magento\\JwtFrameworkAdapter\\' => 
+        'Magento\\JwtFrameworkAdapter\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-jwt-framework-adapter',
         ),
-        'Magento\\Inventory\\' => 
+        'Magento\\Inventory\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory',
         ),
-        'Magento\\InventoryWishlist\\' => 
+        'Magento\\InventoryWishlist\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-wishlist',
         ),
-        'Magento\\InventoryVisualMerchandiser\\' => 
+        'Magento\\InventoryVisualMerchandiser\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-visual-merchandiser',
         ),
-        'Magento\\InventorySwatchesFrontendUi\\' => 
+        'Magento\\InventorySwatchesFrontendUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-swatches-frontend-ui',
         ),
-        'Magento\\InventorySourceSelection\\' => 
+        'Magento\\InventorySourceSelection\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-source-selection',
         ),
-        'Magento\\InventorySourceSelectionApi\\' => 
+        'Magento\\InventorySourceSelectionApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-source-selection-api',
         ),
-        'Magento\\InventorySourceDeductionApi\\' => 
+        'Magento\\InventorySourceDeductionApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-source-deduction-api',
         ),
-        'Magento\\InventoryShipping\\' => 
+        'Magento\\InventoryShipping\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-shipping',
         ),
-        'Magento\\InventoryShippingAdminUi\\' => 
+        'Magento\\InventoryShippingAdminUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-shipping-admin-ui',
         ),
-        'Magento\\InventorySetupFixtureGenerator\\' => 
+        'Magento\\InventorySetupFixtureGenerator\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-setup-fixture-generator',
         ),
-        'Magento\\InventorySales\\' => 
+        'Magento\\InventorySales\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-sales',
         ),
-        'Magento\\InventorySalesFrontendUi\\' => 
+        'Magento\\InventorySalesFrontendUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-sales-frontend-ui',
         ),
-        'Magento\\InventorySalesAsyncOrder\\' => 
+        'Magento\\InventorySalesAsyncOrder\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-sales-async-order',
         ),
-        'Magento\\InventorySalesApi\\' => 
+        'Magento\\InventorySalesApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-sales-api',
         ),
-        'Magento\\InventorySalesAdminUi\\' => 
+        'Magento\\InventorySalesAdminUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-sales-admin-ui',
         ),
-        'Magento\\InventoryReservations\\' => 
+        'Magento\\InventoryReservations\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-reservations',
         ),
-        'Magento\\InventoryReservationsApi\\' => 
+        'Magento\\InventoryReservationsApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-reservations-api',
         ),
-        'Magento\\InventoryReservationCli\\' => 
+        'Magento\\InventoryReservationCli\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-reservation-cli',
         ),
-        'Magento\\InventoryRequisitionList\\' => 
+        'Magento\\InventoryRequisitionList\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-requisition-list',
         ),
-        'Magento\\InventoryQuoteGraphQl\\' => 
+        'Magento\\InventoryQuoteGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-quote-graph-ql',
         ),
-        'Magento\\InventoryProductAlert\\' => 
+        'Magento\\InventoryProductAlert\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-product-alert',
         ),
-        'Magento\\InventoryMultiDimensionalIndexerApi\\' => 
+        'Magento\\InventoryMultiDimensionalIndexerApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-multi-dimensional-indexer-api',
         ),
-        'Magento\\InventoryLowQuantityNotification\\' => 
+        'Magento\\InventoryLowQuantityNotification\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-low-quantity-notification',
         ),
-        'Magento\\InventoryLowQuantityNotificationApi\\' => 
+        'Magento\\InventoryLowQuantityNotificationApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-low-quantity-notification-api',
         ),
-        'Magento\\InventoryLowQuantityNotificationAdminUi\\' => 
+        'Magento\\InventoryLowQuantityNotificationAdminUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-low-quantity-notification-admin-ui',
         ),
-        'Magento\\InventoryIndexer\\' => 
+        'Magento\\InventoryIndexer\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-indexer',
         ),
-        'Magento\\InventoryInStorePickup\\' => 
+        'Magento\\InventoryInStorePickup\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-in-store-pickup',
         ),
-        'Magento\\InventoryInStorePickupWebapiExtension\\' => 
+        'Magento\\InventoryInStorePickupWebapiExtension\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-in-store-pickup-webapi-extension',
         ),
-        'Magento\\InventoryInStorePickupShipping\\' => 
+        'Magento\\InventoryInStorePickupShipping\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-in-store-pickup-shipping',
         ),
-        'Magento\\InventoryInStorePickupShippingApi\\' => 
+        'Magento\\InventoryInStorePickupShippingApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-in-store-pickup-shipping-api',
         ),
-        'Magento\\InventoryInStorePickupShippingAdminUi\\' => 
+        'Magento\\InventoryInStorePickupShippingAdminUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-in-store-pickup-shipping-admin-ui',
         ),
-        'Magento\\InventoryInStorePickupSales\\' => 
+        'Magento\\InventoryInStorePickupSales\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-in-store-pickup-sales',
         ),
-        'Magento\\InventoryInStorePickupSalesApi\\' => 
+        'Magento\\InventoryInStorePickupSalesApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-in-store-pickup-sales-api',
         ),
-        'Magento\\InventoryInStorePickupSalesAdminUi\\' => 
+        'Magento\\InventoryInStorePickupSalesAdminUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-in-store-pickup-sales-admin-ui',
         ),
-        'Magento\\InventoryInStorePickupQuote\\' => 
+        'Magento\\InventoryInStorePickupQuote\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-in-store-pickup-quote',
         ),
-        'Magento\\InventoryInStorePickupQuoteGraphQl\\' => 
+        'Magento\\InventoryInStorePickupQuoteGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-in-store-pickup-quote-graph-ql',
         ),
-        'Magento\\InventoryInStorePickupMultishipping\\' => 
+        'Magento\\InventoryInStorePickupMultishipping\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-in-store-pickup-multishipping',
         ),
-        'Magento\\InventoryInStorePickupGraphQl\\' => 
+        'Magento\\InventoryInStorePickupGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-in-store-pickup-graph-ql',
         ),
-        'Magento\\InventoryInStorePickupFrontend\\' => 
+        'Magento\\InventoryInStorePickupFrontend\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-in-store-pickup-frontend',
         ),
-        'Magento\\InventoryInStorePickupApi\\' => 
+        'Magento\\InventoryInStorePickupApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-in-store-pickup-api',
         ),
-        'Magento\\InventoryInStorePickupAdminUi\\' => 
+        'Magento\\InventoryInStorePickupAdminUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-in-store-pickup-admin-ui',
         ),
-        'Magento\\InventoryImportExport\\' => 
+        'Magento\\InventoryImportExport\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-import-export',
         ),
-        'Magento\\InventoryGroupedProduct\\' => 
+        'Magento\\InventoryGroupedProduct\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-grouped-product',
         ),
-        'Magento\\InventoryGroupedProductIndexer\\' => 
+        'Magento\\InventoryGroupedProductIndexer\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-grouped-product-indexer',
         ),
-        'Magento\\InventoryGroupedProductAdminUi\\' => 
+        'Magento\\InventoryGroupedProductAdminUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-grouped-product-admin-ui',
         ),
-        'Magento\\InventoryGraphQl\\' => 
+        'Magento\\InventoryGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-graph-ql',
         ),
-        'Magento\\InventoryExportStock\\' => 
+        'Magento\\InventoryExportStock\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-export-stock',
         ),
-        'Magento\\InventoryExportStockApi\\' => 
+        'Magento\\InventoryExportStockApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-export-stock-api',
         ),
-        'Magento\\InventoryElasticsearch\\' => 
+        'Magento\\InventoryElasticsearch\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-elasticsearch',
         ),
-        'Magento\\InventoryDistanceBasedSourceSelection\\' => 
+        'Magento\\InventoryDistanceBasedSourceSelection\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-distance-based-source-selection',
         ),
-        'Magento\\InventoryDistanceBasedSourceSelectionApi\\' => 
+        'Magento\\InventoryDistanceBasedSourceSelectionApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-distance-based-source-selection-api',
         ),
-        'Magento\\InventoryDistanceBasedSourceSelectionAdminUi\\' => 
+        'Magento\\InventoryDistanceBasedSourceSelectionAdminUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-distance-based-source-selection-admin-ui',
         ),
-        'Magento\\InventoryConfiguration\\' => 
+        'Magento\\InventoryConfiguration\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-configuration',
         ),
-        'Magento\\InventoryConfigurationApi\\' => 
+        'Magento\\InventoryConfigurationApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-configuration-api',
         ),
-        'Magento\\InventoryConfigurableProduct\\' => 
+        'Magento\\InventoryConfigurableProduct\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-configurable-product',
         ),
-        'Magento\\InventoryConfigurableProductIndexer\\' => 
+        'Magento\\InventoryConfigurableProductIndexer\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-configurable-product-indexer',
         ),
-        'Magento\\InventoryConfigurableProductFrontendUi\\' => 
+        'Magento\\InventoryConfigurableProductFrontendUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-configurable-product-frontend-ui',
         ),
-        'Magento\\InventoryConfigurableProductAdminUi\\' => 
+        'Magento\\InventoryConfigurableProductAdminUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-configurable-product-admin-ui',
         ),
-        'Magento\\InventoryComposerInstaller\\' => 
+        'Magento\\InventoryComposerInstaller\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/inventory-composer-installer/src',
         ),
-        'Magento\\InventoryCatalog\\' => 
+        'Magento\\InventoryCatalog\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-catalog',
         ),
-        'Magento\\InventoryCatalogSearch\\' => 
+        'Magento\\InventoryCatalogSearch\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-catalog-search',
         ),
-        'Magento\\InventoryCatalogSearchConfigurableProduct\\' => 
+        'Magento\\InventoryCatalogSearchConfigurableProduct\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-catalog-search-configurable-product',
         ),
-        'Magento\\InventoryCatalogSearchBundleProduct\\' => 
+        'Magento\\InventoryCatalogSearchBundleProduct\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-catalog-search-bundle-product',
         ),
-        'Magento\\InventoryCatalogRule\\' => 
+        'Magento\\InventoryCatalogRule\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-catalog-rule',
         ),
-        'Magento\\InventoryCatalogFrontendUi\\' => 
+        'Magento\\InventoryCatalogFrontendUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-catalog-frontend-ui',
         ),
-        'Magento\\InventoryCatalogApi\\' => 
+        'Magento\\InventoryCatalogApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-catalog-api',
         ),
-        'Magento\\InventoryCatalogAdminUi\\' => 
+        'Magento\\InventoryCatalogAdminUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-catalog-admin-ui',
         ),
-        'Magento\\InventoryCache\\' => 
+        'Magento\\InventoryCache\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-cache',
         ),
-        'Magento\\InventoryBundleProduct\\' => 
+        'Magento\\InventoryBundleProduct\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-bundle-product',
         ),
-        'Magento\\InventoryBundleProductIndexer\\' => 
+        'Magento\\InventoryBundleProductIndexer\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-bundle-product-indexer',
         ),
-        'Magento\\InventoryBundleProductAdminUi\\' => 
+        'Magento\\InventoryBundleProductAdminUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-bundle-product-admin-ui',
         ),
-        'Magento\\InventoryBundleImportExport\\' => 
+        'Magento\\InventoryBundleImportExport\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-bundle-import-export',
         ),
-        'Magento\\InventoryApi\\' => 
+        'Magento\\InventoryApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-api',
         ),
-        'Magento\\InventoryAdvancedCheckout\\' => 
+        'Magento\\InventoryAdvancedCheckout\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-advanced-checkout',
         ),
-        'Magento\\InventoryAdminUi\\' => 
+        'Magento\\InventoryAdminUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-inventory-admin-ui',
         ),
-        'Magento\\Integration\\' => 
+        'Magento\\Integration\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-integration',
         ),
-        'Magento\\IntegrationGraphQl\\' => 
+        'Magento\\IntegrationGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-integration-graph-ql',
         ),
-        'Magento\\InstantPurchase\\' => 
+        'Magento\\InstantPurchase\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-instant-purchase',
         ),
-        'Magento\\Indexer\\' => 
+        'Magento\\Indexer\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-indexer',
         ),
-        'Magento\\ImportExport\\' => 
+        'Magento\\ImportExport\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-import-export',
         ),
-        'Magento\\GroupedProduct\\' => 
+        'Magento\\GroupedProduct\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-grouped-product',
         ),
-        'Magento\\GroupedProductGraphQl\\' => 
+        'Magento\\GroupedProductGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-grouped-product-graph-ql',
         ),
-        'Magento\\GroupedImportExport\\' => 
+        'Magento\\GroupedImportExport\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-grouped-import-export',
         ),
-        'Magento\\GroupedCatalogInventory\\' => 
+        'Magento\\GroupedCatalogInventory\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-grouped-catalog-inventory',
         ),
-        'Magento\\GraphQl\\' => 
+        'Magento\\GraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-graph-ql',
         ),
-        'Magento\\GraphQlServer\\' => 
+        'Magento\\GraphQlServer\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-graph-ql-server',
         ),
-        'Magento\\GraphQlResolverCache\\' => 
+        'Magento\\GraphQlResolverCache\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-graph-ql-resolver-cache',
         ),
-        'Magento\\GraphQlNewRelic\\' => 
+        'Magento\\GraphQlNewRelic\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-graph-ql-new-relic',
         ),
-        'Magento\\GraphQlCache\\' => 
+        'Magento\\GraphQlCache\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-graph-ql-cache',
         ),
-        'Magento\\GoogleOptimizer\\' => 
+        'Magento\\GoogleOptimizer\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-google-optimizer',
         ),
-        'Magento\\GoogleGtag\\' => 
+        'Magento\\GoogleGtag\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-google-gtag',
         ),
-        'Magento\\GoogleAnalytics\\' => 
+        'Magento\\GoogleAnalytics\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-google-analytics',
         ),
-        'Magento\\GoogleAdwords\\' => 
+        'Magento\\GoogleAdwords\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-google-adwords',
         ),
-        'Magento\\GiftMessage\\' => 
+        'Magento\\GiftMessage\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-gift-message',
         ),
-        'Magento\\GiftMessageGraphQl\\' => 
+        'Magento\\GiftMessageGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-gift-message-graph-ql',
         ),
-        'Magento\\FunctionalTestingFramework\\Tests\\Verification\\' => 
+        'Magento\\FunctionalTestingFramework\\Tests\\Verification\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/magento2-functional-testing-framework/dev/tests/verification/Tests',
         ),
-        'Magento\\FunctionalTestingFramework\\' => 
+        'Magento\\FunctionalTestingFramework\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/magento2-functional-testing-framework/src/Magento/FunctionalTestingFramework',
         ),
-        'Magento\\Framework\\Stomp\\' => 
+        'Magento\\Framework\\Stomp\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/framework-stomp',
         ),
-        'Magento\\Framework\\MessageQueue\\' => 
+        'Magento\\Framework\\MessageQueue\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/framework-message-queue',
         ),
-        'Magento\\Framework\\Bulk\\' => 
+        'Magento\\Framework\\Bulk\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/framework-bulk',
         ),
-        'Magento\\Framework\\Amqp\\' => 
+        'Magento\\Framework\\Amqp\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/framework-amqp',
         ),
-        'Magento\\Framework\\' => 
+        'Magento\\Framework\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/framework',
         ),
-        'Magento\\Fedex\\' => 
+        'Magento\\Fedex\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-fedex',
         ),
-        'Magento\\EncryptionKey\\' => 
+        'Magento\\EncryptionKey\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-encryption-key',
         ),
-        'Magento\\Email\\' => 
+        'Magento\\Email\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-email',
         ),
-        'Magento\\Elasticsearch\\' => 
+        'Magento\\Elasticsearch\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-elasticsearch',
         ),
-        'Magento\\Elasticsearch8\\' => 
+        'Magento\\Elasticsearch8\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-elasticsearch-8',
         ),
-        'Magento\\Eav\\' => 
+        'Magento\\Eav\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-eav',
         ),
-        'Magento\\EavGraphQl\\' => 
+        'Magento\\EavGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-eav-graph-ql',
         ),
-        'Magento\\Downloadable\\' => 
+        'Magento\\Downloadable\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-downloadable',
         ),
-        'Magento\\DownloadableImportExport\\' => 
+        'Magento\\DownloadableImportExport\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-downloadable-import-export',
         ),
-        'Magento\\DownloadableGraphQl\\' => 
+        'Magento\\DownloadableGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-downloadable-graph-ql',
         ),
-        'Magento\\Directory\\' => 
+        'Magento\\Directory\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-directory',
         ),
-        'Magento\\DirectoryGraphQl\\' => 
+        'Magento\\DirectoryGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-directory-graph-ql',
         ),
-        'Magento\\Dhl\\' => 
+        'Magento\\Dhl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-dhl',
         ),
-        'Magento\\Developer\\' => 
+        'Magento\\Developer\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-developer',
         ),
-        'Magento\\Deploy\\' => 
+        'Magento\\Deploy\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-deploy',
         ),
-        'Magento\\DataExporter\\' => 
+        'Magento\\DataExporter\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-data-exporter',
         ),
-        'Magento\\Customer\\' => 
+        'Magento\\Customer\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-customer',
         ),
-        'Magento\\CustomerImportExport\\' => 
+        'Magento\\CustomerImportExport\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-customer-import-export',
         ),
-        'Magento\\CustomerGraphQl\\' => 
+        'Magento\\CustomerGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-customer-graph-ql',
         ),
-        'Magento\\CustomerDownloadableGraphQl\\' => 
+        'Magento\\CustomerDownloadableGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-customer-downloadable-graph-ql',
         ),
-        'Magento\\CustomerAnalytics\\' => 
+        'Magento\\CustomerAnalytics\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-customer-analytics',
         ),
-        'Magento\\CurrencySymbol\\' => 
+        'Magento\\CurrencySymbol\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-currency-symbol',
         ),
-        'Magento\\Csp\\' => 
+        'Magento\\Csp\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-csp',
         ),
-        'Magento\\Cron\\' => 
+        'Magento\\Cron\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-cron',
         ),
-        'Magento\\Cookie\\' => 
+        'Magento\\Cookie\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-cookie',
         ),
-        'Magento\\Contact\\' => 
+        'Magento\\Contact\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-contact',
         ),
-        'Magento\\ContactGraphQl\\' => 
+        'Magento\\ContactGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-contact-graph-ql',
         ),
-        'Magento\\ConfigurableProduct\\' => 
+        'Magento\\ConfigurableProduct\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-configurable-product',
         ),
-        'Magento\\ConfigurableProductSales\\' => 
+        'Magento\\ConfigurableProductSales\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-configurable-product-sales',
         ),
-        'Magento\\ConfigurableProductGraphQl\\' => 
+        'Magento\\ConfigurableProductGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-configurable-product-graph-ql',
         ),
-        'Magento\\ConfigurableImportExport\\' => 
+        'Magento\\ConfigurableImportExport\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-configurable-import-export',
         ),
-        'Magento\\Config\\' => 
+        'Magento\\Config\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-config',
         ),
-        'Magento\\Composer\\' => 
+        'Magento\\Composer\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/composer/src',
         ),
-        'Magento\\ComposerRootUpdatePlugin\\' => 
+        'Magento\\ComposerRootUpdatePlugin\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/composer-root-update-plugin',
         ),
-        'Magento\\ComposerDependencyVersionAuditPlugin\\' => 
+        'Magento\\ComposerDependencyVersionAuditPlugin\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/composer-dependency-version-audit-plugin/src',
         ),
-        'Magento\\CompareListGraphQl\\' => 
+        'Magento\\CompareListGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-compare-list-graph-ql',
         ),
-        'Magento\\Cms\\' => 
+        'Magento\\Cms\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-cms',
         ),
-        'Magento\\CmsUrlRewrite\\' => 
+        'Magento\\CmsUrlRewrite\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-cms-url-rewrite',
         ),
-        'Magento\\CmsUrlRewriteGraphQl\\' => 
+        'Magento\\CmsUrlRewriteGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-cms-url-rewrite-graph-ql',
         ),
-        'Magento\\CmsPageBuilderAnalytics\\' => 
+        'Magento\\CmsPageBuilderAnalytics\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-cms-page-builder-analytics',
         ),
-        'Magento\\CmsGraphQl\\' => 
+        'Magento\\CmsGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-cms-graph-ql',
         ),
-        'Magento\\Checkout\\' => 
+        'Magento\\Checkout\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-checkout',
         ),
-        'Magento\\CheckoutAgreements\\' => 
+        'Magento\\CheckoutAgreements\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-checkout-agreements',
         ),
-        'Magento\\CheckoutAgreementsGraphQl\\' => 
+        'Magento\\CheckoutAgreementsGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-checkout-agreements-graph-ql',
         ),
-        'Magento\\Catalog\\' => 
+        'Magento\\Catalog\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-catalog',
         ),
-        'Magento\\CatalogWidget\\' => 
+        'Magento\\CatalogWidget\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-catalog-widget',
         ),
-        'Magento\\CatalogUrlRewrite\\' => 
+        'Magento\\CatalogUrlRewrite\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-catalog-url-rewrite',
         ),
-        'Magento\\CatalogUrlRewriteGraphQl\\' => 
+        'Magento\\CatalogUrlRewriteGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-catalog-url-rewrite-graph-ql',
         ),
-        'Magento\\CatalogSearch\\' => 
+        'Magento\\CatalogSearch\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-catalog-search',
         ),
-        'Magento\\CatalogRule\\' => 
+        'Magento\\CatalogRule\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-catalog-rule',
         ),
-        'Magento\\CatalogRuleGraphQl\\' => 
+        'Magento\\CatalogRuleGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-catalog-rule-graph-ql',
         ),
-        'Magento\\CatalogRuleConfigurable\\' => 
+        'Magento\\CatalogRuleConfigurable\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-catalog-rule-configurable',
         ),
-        'Magento\\CatalogPageBuilderAnalytics\\' => 
+        'Magento\\CatalogPageBuilderAnalytics\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-catalog-page-builder-analytics',
         ),
-        'Magento\\CatalogInventory\\' => 
+        'Magento\\CatalogInventory\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-catalog-inventory',
         ),
-        'Magento\\CatalogInventoryGraphQl\\' => 
+        'Magento\\CatalogInventoryGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-catalog-inventory-graph-ql',
         ),
-        'Magento\\CatalogImportExport\\' => 
+        'Magento\\CatalogImportExport\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-catalog-import-export',
         ),
-        'Magento\\CatalogGraphQl\\' => 
+        'Magento\\CatalogGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-catalog-graph-ql',
         ),
-        'Magento\\CatalogCustomerGraphQl\\' => 
+        'Magento\\CatalogCustomerGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-catalog-customer-graph-ql',
         ),
-        'Magento\\CatalogCmsGraphQl\\' => 
+        'Magento\\CatalogCmsGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-catalog-cms-graph-ql',
         ),
-        'Magento\\CatalogAnalytics\\' => 
+        'Magento\\CatalogAnalytics\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-catalog-analytics',
         ),
-        'Magento\\CardinalCommerce\\' => 
+        'Magento\\CardinalCommerce\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-cardinal-commerce',
         ),
-        'Magento\\Captcha\\' => 
+        'Magento\\Captcha\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-captcha',
         ),
-        'Magento\\CacheInvalidate\\' => 
+        'Magento\\CacheInvalidate\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-cache-invalidate',
         ),
-        'Magento\\Bundle\\' => 
+        'Magento\\Bundle\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-bundle',
         ),
-        'Magento\\BundleImportExport\\' => 
+        'Magento\\BundleImportExport\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-bundle-import-export',
         ),
-        'Magento\\BundleGraphQl\\' => 
+        'Magento\\BundleGraphQl\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-bundle-graph-ql',
         ),
-        'Magento\\Backup\\' => 
+        'Magento\\Backup\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-backup',
         ),
-        'Magento\\Backend\\' => 
+        'Magento\\Backend\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-backend',
         ),
-        'Magento\\AwsS3\\' => 
+        'Magento\\AwsS3\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-aws-s3',
         ),
-        'Magento\\AwsS3PageBuilder\\' => 
+        'Magento\\AwsS3PageBuilder\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-aws-s3-page-builder',
         ),
-        'Magento\\Authorization\\' => 
+        'Magento\\Authorization\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-authorization',
         ),
-        'Magento\\AsynchronousOperations\\' => 
+        'Magento\\AsynchronousOperations\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-asynchronous-operations',
         ),
-        'Magento\\AsyncConfig\\' => 
+        'Magento\\AsyncConfig\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-async-config',
         ),
-        'Magento\\ApplicationPerformanceMonitor\\' => 
+        'Magento\\ApplicationPerformanceMonitor\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-application-performance-monitor',
         ),
-        'Magento\\ApplicationPerformanceMonitorNewRelic\\' => 
+        'Magento\\ApplicationPerformanceMonitorNewRelic\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-application-performance-monitor-new-relic',
         ),
-        'Magento\\Analytics\\' => 
+        'Magento\\Analytics\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-analytics',
         ),
-        'Magento\\Amqp\\' => 
+        'Magento\\Amqp\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-amqp',
         ),
-        'Magento\\AdvancedSearch\\' => 
+        'Magento\\AdvancedSearch\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-advanced-search',
         ),
-        'Magento\\AdvancedPricingImportExport\\' => 
+        'Magento\\AdvancedPricingImportExport\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-advanced-pricing-import-export',
         ),
-        'Magento\\AdobeStockImage\\' => 
+        'Magento\\AdobeStockImage\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-adobe-stock-image',
         ),
-        'Magento\\AdobeStockImageApi\\' => 
+        'Magento\\AdobeStockImageApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-adobe-stock-image-api',
         ),
-        'Magento\\AdobeStockImageAdminUi\\' => 
+        'Magento\\AdobeStockImageAdminUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-adobe-stock-image-admin-ui',
         ),
-        'Magento\\AdobeStockClient\\' => 
+        'Magento\\AdobeStockClient\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-adobe-stock-client',
         ),
-        'Magento\\AdobeStockClientApi\\' => 
+        'Magento\\AdobeStockClientApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-adobe-stock-client-api',
         ),
-        'Magento\\AdobeStockAsset\\' => 
+        'Magento\\AdobeStockAsset\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-adobe-stock-asset',
         ),
-        'Magento\\AdobeStockAssetApi\\' => 
+        'Magento\\AdobeStockAssetApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-adobe-stock-asset-api',
         ),
-        'Magento\\AdobeStockAdminUi\\' => 
+        'Magento\\AdobeStockAdminUi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-adobe-stock-admin-ui',
         ),
-        'Magento\\AdobeIms\\' => 
+        'Magento\\AdobeIms\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-adobe-ims',
         ),
-        'Magento\\AdobeImsApi\\' => 
+        'Magento\\AdobeImsApi\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-adobe-ims-api',
         ),
-        'Magento\\AdminNotification\\' => 
+        'Magento\\AdminNotification\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-admin-notification',
         ),
-        'Magento\\AdminGraphQlServer\\' => 
+        'Magento\\AdminGraphQlServer\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-admin-graph-ql-server',
         ),
-        'Magento\\AdminAnalytics\\' => 
+        'Magento\\AdminAnalytics\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-admin-analytics',
         ),
-        'Magento\\AdminAdobeIms\\' => 
+        'Magento\\AdminAdobeIms\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-admin-adobe-ims',
         ),
-        'Magento\\AdminAdobeImsTwoFactorAuth\\' => 
+        'Magento\\AdminAdobeImsTwoFactorAuth\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/module-admin-adobe-ims-two-factor-auth',
         ),
-        'Magento2\\' => 
+        'Magento2\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/magento-coding-standard/Magento2',
         ),
-        'Magento2Framework\\' => 
+        'Magento2Framework\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/magento-coding-standard/Magento2Framework',
         ),
-        'MabeEnum\\' => 
+        'MabeEnum\\' =>
         array (
             0 => __DIR__ . '/..' . '/marc-mabe/php-enum/src',
         ),
-        'MFTF\\' => 
+        'MFTF\\' =>
         array (
             0 => __DIR__ . '/..' . '/magento/magento2-functional-testing-framework/dev/tests/functional/tests/MFTF',
         ),
-        'League\\MimeTypeDetection\\' => 
+        'League\\MimeTypeDetection\\' =>
         array (
             0 => __DIR__ . '/..' . '/league/mime-type-detection/src',
         ),
-        'League\\Flysystem\\Local\\' => 
+        'League\\Flysystem\\Local\\' =>
         array (
             0 => __DIR__ . '/..' . '/league/flysystem-local',
         ),
-        'League\\Flysystem\\AwsS3V3\\' => 
+        'League\\Flysystem\\AwsS3V3\\' =>
         array (
             0 => __DIR__ . '/..' . '/league/flysystem-aws-s3-v3',
         ),
-        'League\\Flysystem\\' => 
+        'League\\Flysystem\\' =>
         array (
             0 => __DIR__ . '/..' . '/league/flysystem/src',
         ),
-        'Laminas\\View\\' => 
+        'Laminas\\View\\' =>
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-view/src',
         ),
-        'Laminas\\Validator\\' => 
+        'Laminas\\Validator\\' =>
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-validator/src',
         ),
-        'Laminas\\Uri\\' => 
+        'Laminas\\Uri\\' =>
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-uri/src',
         ),
-        'Laminas\\Translator\\' => 
+        'Laminas\\Translator\\' =>
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-translator/src',
         ),
-        'Laminas\\Text\\' => 
+        'Laminas\\Text\\' =>
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-text/src',
         ),
-        'Laminas\\Stdlib\\' => 
+        'Laminas\\Stdlib\\' =>
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-stdlib/src',
         ),
-        'Laminas\\Soap\\' => 
+        'Laminas\\Soap\\' =>
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-soap/src',
         ),
-        'Laminas\\Session\\' => 
+        'Laminas\\Session\\' =>
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-session/src',
         ),
-        'Laminas\\ServiceManager\\' => 
+        'Laminas\\ServiceManager\\' =>
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-servicemanager/src',
         ),
-        'Laminas\\Server\\' => 
+        'Laminas\\Server\\' =>
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-server/src',
         ),
-        'Laminas\\ReCaptcha\\' => 
+        'Laminas\\ReCaptcha\\' =>
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-recaptcha/src',
         ),
-        'Laminas\\Permissions\\Acl\\' => 
+        'Laminas\\Permissions\\Acl\\' =>
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-permissions-acl/src',
         ),
-        'Laminas\\ModuleManager\\' => 
+        'Laminas\\ModuleManager\\' =>
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-modulemanager/src',
         ),
-        'Laminas\\Loader\\' => 
+        'Laminas\\Loader\\' =>
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-loader/src',
         ),
-        'Laminas\\Json\\' => 
+        'Laminas\\Json\\' =>
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-json/src',
         ),
-        'Laminas\\I18n\\' => 
+        'Laminas\\I18n\\' =>
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-i18n/src',
         ),
-        'Laminas\\Http\\' => 
+        'Laminas\\Http\\' =>
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-http/src',
         ),
-        'Laminas\\Filter\\' => 
+        'Laminas\\Filter\\' =>
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-filter/src',
         ),
-        'Laminas\\Feed\\' => 
+        'Laminas\\Feed\\' =>
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-feed/src',
         ),
-        'Laminas\\EventManager\\' => 
+        'Laminas\\EventManager\\' =>
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-eventmanager/src',
         ),
-        'Laminas\\Escaper\\' => 
+        'Laminas\\Escaper\\' =>
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-escaper/src',
         ),
-        'Laminas\\Diactoros\\' => 
+        'Laminas\\Diactoros\\' =>
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-diactoros/src',
         ),
-        'Laminas\\Di\\' => 
+        'Laminas\\Di\\' =>
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-di/src',
         ),
-        'Laminas\\Config\\' => 
+        'Laminas\\Config\\' =>
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-config/src',
         ),
-        'Laminas\\Code\\' => 
+        'Laminas\\Code\\' =>
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-code/src',
         ),
-        'Laminas\\Captcha\\' => 
+        'Laminas\\Captcha\\' =>
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-captcha/src',
         ),
-        'JsonSchema\\' => 
+        'JsonSchema\\' =>
         array (
             0 => __DIR__ . '/..' . '/justinrainbow/json-schema/src/JsonSchema',
         ),
-        'Jose\\Experimental\\' => 
+        'Jose\\Experimental\\' =>
         array (
             0 => __DIR__ . '/..' . '/web-token/jwt-framework/src/Experimental',
         ),
-        'Jose\\Component\\' => 
+        'Jose\\Component\\' =>
         array (
             0 => __DIR__ . '/..' . '/web-token/jwt-framework/src/Library',
         ),
-        'Jose\\Bundle\\JoseFramework\\' => 
+        'Jose\\Bundle\\JoseFramework\\' =>
         array (
             0 => __DIR__ . '/..' . '/web-token/jwt-framework/src/Bundle',
         ),
-        'JmesPath\\' => 
+        'JmesPath\\' =>
         array (
             0 => __DIR__ . '/..' . '/mtdowling/jmespath.php/src',
         ),
-        'Http\\Promise\\' => 
+        'Http\\Promise\\' =>
         array (
             0 => __DIR__ . '/..' . '/php-http/promise/src',
         ),
-        'Http\\Discovery\\' => 
+        'Http\\Discovery\\' =>
         array (
             0 => __DIR__ . '/..' . '/php-http/discovery/src',
         ),
-        'Http\\Client\\' => 
+        'Http\\Client\\' =>
         array (
             0 => __DIR__ . '/..' . '/php-http/httplug/src',
         ),
-        'GuzzleHttp\\Stream\\' => 
+        'GuzzleHttp\\Stream\\' =>
         array (
             0 => __DIR__ . '/..' . '/ezimuel/guzzlestreams/src',
         ),
-        'GuzzleHttp\\Ring\\' => 
+        'GuzzleHttp\\Ring\\' =>
         array (
             0 => __DIR__ . '/..' . '/ezimuel/ringphp/src',
         ),
-        'GuzzleHttp\\Psr7\\' => 
+        'GuzzleHttp\\Psr7\\' =>
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
         ),
-        'GuzzleHttp\\Promise\\' => 
+        'GuzzleHttp\\Promise\\' =>
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/promises/src',
         ),
-        'GuzzleHttp\\' => 
+        'GuzzleHttp\\' =>
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
-        'Gt\\PropFunc\\' => 
+        'Gt\\PropFunc\\' =>
         array (
             0 => __DIR__ . '/..' . '/phpgt/propfunc/src',
         ),
-        'Gt\\Dom\\' => 
+        'Gt\\Dom\\' =>
         array (
             0 => __DIR__ . '/..' . '/phpgt/dom/src',
         ),
-        'Gt\\CssXPath\\' => 
+        'Gt\\CssXPath\\' =>
         array (
             0 => __DIR__ . '/..' . '/phpgt/cssxpath/src',
         ),
-        'GraphQL\\' => 
+        'GraphQL\\' =>
         array (
             0 => __DIR__ . '/..' . '/webonyx/graphql-php/src',
         ),
-        'Giggsey\\Locale\\' => 
+        'Giggsey\\Locale\\' =>
         array (
             0 => __DIR__ . '/..' . '/giggsey/locale/src',
         ),
-        'GT\\Dom\\' => 
+        'GT\\Dom\\' =>
         array (
             0 => __DIR__ . '/..' . '/phpgt/dom/src',
         ),
-        'Firebase\\JWT\\' => 
+        'Firebase\\JWT\\' =>
         array (
             0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
         ),
-        'Fidry\\CpuCoreCounter\\' => 
+        'Fidry\\CpuCoreCounter\\' =>
         array (
             0 => __DIR__ . '/..' . '/fidry/cpu-core-counter/src',
         ),
-        'Facebook\\WebDriver\\' => 
+        'Facebook\\WebDriver\\' =>
         array (
             0 => __DIR__ . '/..' . '/php-webdriver/webdriver/lib',
         ),
-        'Evenement\\' => 
+        'Evenement\\' =>
         array (
             0 => __DIR__ . '/..' . '/evenement/evenement/src',
         ),
-        'Ergebnis\\AgentDetector\\' => 
+        'Ergebnis\\AgentDetector\\' =>
         array (
             0 => __DIR__ . '/..' . '/ergebnis/agent-detector/src',
         ),
-        'Endroid\\QrCode\\' => 
+        'Endroid\\QrCode\\' =>
         array (
             0 => __DIR__ . '/..' . '/endroid/qr-code/src',
         ),
-        'Elastic\\Transport\\' => 
+        'Elastic\\Transport\\' =>
         array (
             0 => __DIR__ . '/..' . '/elastic/transport/src',
         ),
-        'Elastic\\Elasticsearch\\' => 
+        'Elastic\\Elasticsearch\\' =>
         array (
             0 => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src',
         ),
-        'Egulias\\EmailValidator\\' => 
+        'Egulias\\EmailValidator\\' =>
         array (
             0 => __DIR__ . '/..' . '/egulias/email-validator/src',
         ),
-        'Duo\\DuoUniversal\\' => 
+        'Duo\\DuoUniversal\\' =>
         array (
             0 => __DIR__ . '/..' . '/duosecurity/duo_universal_php/src',
         ),
-        'DuoAPI\\' => 
+        'DuoAPI\\' =>
         array (
             0 => __DIR__ . '/..' . '/duosecurity/duo_api_php/src',
         ),
-        'Doctrine\\Common\\Lexer\\' => 
+        'Doctrine\\Common\\Lexer\\' =>
         array (
             0 => __DIR__ . '/..' . '/doctrine/lexer/src',
         ),
-        'Doctrine\\Common\\Annotations\\' => 
+        'Doctrine\\Common\\Annotations\\' =>
         array (
             0 => __DIR__ . '/..' . '/doctrine/annotations/lib/Doctrine/Common/Annotations',
         ),
-        'DeepCopy\\' => 
+        'DeepCopy\\' =>
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
         ),
-        'DASPRiD\\Enum\\' => 
+        'DASPRiD\\Enum\\' =>
         array (
             0 => __DIR__ . '/..' . '/dasprid/enum/src',
         ),
-        'CustomRule\\PHPUnit\\' => 
+        'CustomRule\\PHPUnit\\' =>
         array (
             0 => __DIR__ . '/..' . '/php-db/phpdb/rector',
         ),
-        'Composer\\XdebugHandler\\' => 
+        'Composer\\XdebugHandler\\' =>
         array (
             0 => __DIR__ . '/..' . '/composer/xdebug-handler/src',
         ),
-        'Composer\\Spdx\\' => 
+        'Composer\\Spdx\\' =>
         array (
             0 => __DIR__ . '/..' . '/composer/spdx-licenses/src',
         ),
-        'Composer\\Semver\\' => 
+        'Composer\\Semver\\' =>
         array (
             0 => __DIR__ . '/..' . '/composer/semver/src',
         ),
-        'Composer\\Pcre\\' => 
+        'Composer\\Pcre\\' =>
         array (
             0 => __DIR__ . '/..' . '/composer/pcre/src',
         ),
-        'Composer\\MetadataMinifier\\' => 
+        'Composer\\MetadataMinifier\\' =>
         array (
             0 => __DIR__ . '/..' . '/composer/metadata-minifier/src',
         ),
-        'Composer\\ClassMapGenerator\\' => 
+        'Composer\\ClassMapGenerator\\' =>
         array (
             0 => __DIR__ . '/..' . '/composer/class-map-generator/src',
         ),
-        'Composer\\CaBundle\\' => 
+        'Composer\\CaBundle\\' =>
         array (
             0 => __DIR__ . '/..' . '/composer/ca-bundle/src',
         ),
-        'Composer\\' => 
+        'Composer\\' =>
         array (
             0 => __DIR__ . '/..' . '/composer/composer/src/Composer',
         ),
-        'Codeception\\Extension\\' => 
+        'Codeception\\Extension\\' =>
         array (
             0 => __DIR__ . '/..' . '/codeception/codeception/ext',
         ),
-        'Codeception\\' => 
+        'Codeception\\' =>
         array (
             0 => __DIR__ . '/..' . '/codeception/codeception/src/Codeception',
             1 => __DIR__ . '/..' . '/codeception/stub/src',
         ),
-        'Clue\\React\\NDJson\\' => 
+        'Clue\\React\\NDJson\\' =>
         array (
             0 => __DIR__ . '/..' . '/clue/ndjson-react/src',
         ),
-        'Brick\\VarExporter\\' => 
+        'Brick\\VarExporter\\' =>
         array (
             0 => __DIR__ . '/..' . '/brick/varexporter/src',
         ),
-        'Brick\\PhoneNumber\\' => 
+        'Brick\\PhoneNumber\\' =>
         array (
             0 => __DIR__ . '/..' . '/brick/phonenumber/src',
         ),
-        'Brick\\Math\\' => 
+        'Brick\\Math\\' =>
         array (
             0 => __DIR__ . '/..' . '/brick/math/src',
         ),
-        'Braintree\\' => 
+        'Braintree\\' =>
         array (
             0 => __DIR__ . '/..' . '/braintree/braintree_php/lib/Braintree',
         ),
-        'Behat\\Gherkin\\' => 
+        'Behat\\Gherkin\\' =>
         array (
             0 => __DIR__ . '/..' . '/behat/gherkin/src',
         ),
-        'Base32\\' => 
+        'Base32\\' =>
         array (
             0 => __DIR__ . '/..' . '/christian-riesen/base32/src',
         ),
-        'BaconQrCode\\' => 
+        'BaconQrCode\\' =>
         array (
             0 => __DIR__ . '/..' . '/bacon/bacon-qr-code/src',
         ),
-        'Aws\\' => 
+        'Aws\\' =>
         array (
             0 => __DIR__ . '/..' . '/aws/aws-sdk-php/src',
         ),
-        'AdobeStock\\Api\\' => 
+        'AdobeStock\\Api\\' =>
         array (
             0 => __DIR__ . '/..' . '/astock/stock-api-libphp/src',
         ),
-        'AESKW\\' => 
+        'AESKW\\' =>
         array (
             0 => __DIR__ . '/..' . '/spomky-labs/aes-key-wrap/src',
         ),
     );
 
     public static $prefixesPsr0 = array (
-        'Z' => 
+        'Z' =>
         array (
-            'Zend_Pdf' => 
+            'Zend_Pdf' =>
             array (
                 0 => __DIR__ . '/..' . '/magento/zend-pdf/library',
             ),
-            'Zend_Memory' => 
+            'Zend_Memory' =>
             array (
                 0 => __DIR__ . '/..' . '/magento/zend-memory/library',
             ),
-            'Zend_Log' => 
+            'Zend_Log' =>
             array (
                 0 => __DIR__ . '/..' . '/magento/zend-log/library',
             ),
-            'Zend_Loader' => 
+            'Zend_Loader' =>
             array (
                 0 => __DIR__ . '/..' . '/magento/zend-loader/library',
             ),
-            'Zend_Exception' => 
+            'Zend_Exception' =>
             array (
                 0 => __DIR__ . '/..' . '/magento/zend-exception/library',
             ),
-            'Zend_Db' => 
+            'Zend_Db' =>
             array (
                 0 => __DIR__ . '/..' . '/magento/zend-db/library',
             ),
-            'Zend_Cache' => 
+            'Zend_Cache' =>
             array (
                 0 => __DIR__ . '/..' . '/magento/zend-cache/library',
             ),
         ),
-        'M' => 
+        'M' =>
         array (
-            'MagentoHackathon\\Composer\\Magento' => 
+            'MagentoHackathon\\Composer\\Magento' =>
             array (
                 0 => __DIR__ . '/..' . '/magento/magento-composer-installer/src',
             ),
         ),
-        'L' => 
+        'L' =>
         array (
-            'Less' => 
+            'Less' =>
             array (
                 0 => __DIR__ . '/..' . '/wikimedia/less.php/lib',
             ),
         ),
-        'J' => 
+        'J' =>
         array (
-            'JShrink' => 
+            'JShrink' =>
             array (
                 0 => __DIR__ . '/..' . '/tedivm/jshrink/src',
             ),
         ),
-        'H' => 
+        'H' =>
         array (
-            'HTMLPurifier' => 
+            'HTMLPurifier' =>
             array (
                 0 => __DIR__ . '/..' . '/ezyang/htmlpurifier/library',
             ),
         ),
-        'C' => 
+        'C' =>
         array (
-            'Cm\\RedisSession\\' => 
+            'Cm\\RedisSession\\' =>
             array (
                 0 => __DIR__ . '/..' . '/colinmollenhour/php-redis-session-abstract/src',
             ),
-            'CBOR' => 
+            'CBOR' =>
             array (
                 0 => __DIR__ . '/..' . '/2tvenom/cborencode/src',
             ),

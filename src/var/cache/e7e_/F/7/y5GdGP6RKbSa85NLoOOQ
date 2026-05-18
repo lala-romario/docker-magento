@@ -1,0 +1,3 @@
+1779143156
+ASSIGNED_ROLE_1
+a:4:{s:4:"data";s:133:"[{"role_id":"2","parent_id":"1","tree_level":"2","sort_order":"0","role_type":"U","user_id":"1","user_type":"2","role_name":"admin"}]";s:5:"mtime";i:1779135956;s:6:"expire";i:1779143156;s:4:"tags";a:2:{i:0;s:18:"USER_ASSIGNED_ROLE";i:1;s:4:"MAGE";}}

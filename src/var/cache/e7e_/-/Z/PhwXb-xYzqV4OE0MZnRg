@@ -1,0 +1,3 @@
+1779142637
+ELASTICSEARCH_INDEX_CONFIG
+a:4:{s:4:"data";s:385:"{"stemmerInfo":{"type":"stemmer","default":"english","de_DE":"german","en_US":"english","es_ES":"spanish","fr_FR":"french","nl_NL":"dutch","pt_BR":"portuguese"},"stopwordsInfo":{"default":"stopwords.csv","de_DE":"stopwords_de_DE.csv","en_US":"stopwords_en_US.csv","es_ES":"stopwords_es_ES.csv","fr_FR":"stopwords_fr_FR.csv","nl_NL":"stopwords_nl_NL.csv","pt_BR":"stopwords_pt_BR.csv"}}";s:5:"mtime";i:1779135437;s:6:"expire";i:1779142637;s:4:"tags";a:2:{i:0;s:6:"CONFIG";i:1;s:4:"MAGE";}}

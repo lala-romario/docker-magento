@@ -1,0 +1,3 @@
+1779143156
+AUTHORIZATION_ROLE_CACHED_DATA
+a:4:{s:4:"data";s:274:"[{"role_id":"1","parent_id":"0","tree_level":"1","sort_order":"1","role_type":"G","user_id":"0","user_type":"2","role_name":"Administrators"},{"role_id":"2","parent_id":"1","tree_level":"2","sort_order":"0","role_type":"U","user_id":"1","user_type":"2","role_name":"admin"}]";s:5:"mtime";i:1779135956;s:6:"expire";i:1779143156;s:4:"tags";a:3:{i:0;s:9:"ACL_CACHE";i:1;s:6:"CONFIG";i:2;s:4:"MAGE";}}

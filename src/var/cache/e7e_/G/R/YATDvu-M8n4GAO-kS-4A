@@ -1,0 +1,3 @@
+1779143156
+AUTHORIZATION_RULE_CACHED_DATA
+a:4:{s:4:"data";s:107:"[{"rule_id":"1","role_id":"1","resource_id":"Magento_Backend::all","privileges":null,"permission":"allow"}]";s:5:"mtime";i:1779135956;s:6:"expire";i:1779143156;s:4:"tags";a:3:{i:0;s:9:"ACL_CACHE";i:1;s:6:"CONFIG";i:2;s:4:"MAGE";}}

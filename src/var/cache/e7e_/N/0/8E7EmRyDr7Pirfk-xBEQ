@@ -1,0 +1,3 @@
+1779142393
+ADMINHTML__CSP_WHITELIST_CONFIG
+a:4:{s:4:"data";s:425:"{"script-src":{"hosts":{"aptrinsic":"*.aptrinsic.com"},"hashes":[]},"style-src":{"hosts":{"aptrinsic":"*.aptrinsic.com","fonts_googleapis":"fonts.googleapis.com"},"hashes":[]},"img-src":{"hosts":{"aptrinsic":"*.aptrinsic.com","storage_googleapis":"storage.googleapis.com"},"hashes":[]},"connect-src":{"hosts":{"aptrinsic":"*.aptrinsic.com"},"hashes":[]},"font-src":{"hosts":{"fonts_gstatic":"fonts.gstatic.com"},"hashes":[]}}";s:5:"mtime";i:1779135193;s:6:"expire";i:1779142393;s:4:"tags";a:2:{i:0;s:6:"CONFIG";i:1;s:4:"MAGE";}}

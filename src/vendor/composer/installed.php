@@ -5133,9 +5133,9 @@
             'dev_requirement' => false,
         ),
         'sebastian/cli-parser' => array(
-            'pretty_version' => '4.2.0',
-            'version' => '4.2.0.0',
-            'reference' => '90f41072d220e5c40df6e8635f5dafba2d9d4d04',
+            'pretty_version' => '4.2.1',
+            'version' => '4.2.1.0',
+            'reference' => '7d05781b13f7dec9043a629a21d086ed74582a15',
             'type' => 'library',
             'install_path' => __DIR__ . '/../sebastian/cli-parser',
             'aliases' => array(),

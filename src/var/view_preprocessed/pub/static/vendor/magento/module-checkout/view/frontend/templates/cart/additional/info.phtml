@@ -1,0 +1,1 @@
+<?php /** * Copyright 2014 Adobe * All Rights Reserved. */ ?> <?php /** * Shopping cart additional info * @var $block \Magento\Framework\View\Element\Template */ ?> <?php $name = $block->getNameInLayout(); foreach ($block->getChildNames($name) as $childName) { echo $block->getChildBlock($childName)->setItem($block->getItem())->toHtml(); } ?>
